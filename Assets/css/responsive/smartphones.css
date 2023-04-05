@@ -1,6 +1,6 @@
 
 
-@media screen and (min-width: 320px) and (max-width: 375px) {
+@media screen  and (max-width: 375px),screen and (max-width: 420px),screen and (max-width: 360px){
 
 
     nav{
@@ -276,6 +276,19 @@ vetical menu */
     justify-content: center;
     align-items: center;
     padding-top: 950px;
+    scrollbar-width: thin;
+    scrollbar-color: #000000 #000;
+}
+
+
+.container-text-about::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border: 1px solid #000000;
+}
+
+
+.container-text-about::-webkit-scrollbar-track {
+    background-color: rgb(0, 0, 0);
 }
 
 .container-text-about h1{
@@ -378,6 +391,13 @@ vetical menu */
     scrollbar-color: #000000 #000;
 }
 
+.container-projects-main::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border: 1px solid #000000;
+}
+.container-projects-main::-webkit-scrollbar-track {
+    background-color: rgb(0, 0, 0);
+}
 
 
 .item-project{
@@ -446,10 +466,14 @@ form{
     flex-direction:column ;
     flex-wrap: wrap;
     row-gap: 30px;
-    margin-left: 2px;
     justify-content: center;
     align-items: center;
     margin-top: 40px;
+    position: relative;
+    background: white;
+    border-radius: 20px;
+    margin-left: 90px;
+    
 
 }
 
@@ -467,8 +491,8 @@ textarea{
     outline: none;
     resize: none;
     border: 1px solid var(--mainColor);
-    background-color: rgba(0, 0, 0, 0.336);
-    color: white;
+    background-color: #fff;
+    color: black;
     
 }
 
@@ -492,7 +516,7 @@ textarea{
 }
 
 .container-contact h1{
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: var(--mainColor);
     margin-bottom: 5px;
     filter: drop-shadow(0px 0px 8px rgba(0,182,206,0.51));
@@ -533,46 +557,15 @@ textarea{
 }
 
 form{
-    position: relative;
-    display: flex;
-    flex-direction:column ;
-    margin: 0 auto;
-    row-gap: 30px;
-    margin-left: 50px;
-    background: white;
-    padding: 10px;
-    border-radius: 20px;
+
     
 }
 
-textarea{
-    background-color: #fff;
-    color: black;
-    
-}
-
-.container-contact h1{
-    width: 100%;
-}
-
-
-
-
-
-
-
 
 
 
 
 }
-
-
-
-
-
-
-
 
 
 

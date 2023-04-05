@@ -55,7 +55,7 @@
 
 
 
-@media screen and (min-width: 320px) and (max-width: 375px) {
+@media screen (max-width: 375px),screen and (max-width: 420px),screen and (max-width: 360px) {
     .container-category{
         column-gap: 20px;
     }
