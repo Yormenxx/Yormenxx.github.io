@@ -55,9 +55,9 @@
 
 
 
-@media screen (max-width: 375px),screen and (max-width: 420px),screen and (max-width: 360px) {
+@media screen and (max-width: 360px),screen and (max-width: 480px){
     .container-category{
-        column-gap: 20px;
+        column-gap: 10px;
     }
     
     .container-category label{
