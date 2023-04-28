@@ -477,6 +477,17 @@ main{
     object-fit: cover;
     filter: drop-shadow(0px 0px 8px rgba(0,182,206,0.51));
 }
+
+.container-text-about::-webkit-scrollbar-track {
+    background-color: rgb(11, 11, 11);
+  }
+.container-text-about::-webkit-scrollbar-thumb{
+    background-color: #000000;
+    
+} 
+.container-text-about::-webkit-scrollbar{
+    width: 0;
+}
 .container-text-about{
     display: flex;
     flex-direction: column;
@@ -667,7 +678,16 @@ vetical menu */
     filter: drop-shadow(0px 0px 8px rgba(0,182,206,0.51));
     text-transform: uppercase;
 }
+.container-projects-main::-webkit-scrollbar-track {
+    background-color: rgb(11, 11, 11);
+  }
 
+.container-projects-main::-webkit-scrollbar-thumb{
+    background-color: #000000;
+}
+.container-projects-main::-webkit-scrollbar{
+    width: 0;
+}
 .container-projects-main{
     padding: 60px;
     height: 500px;
@@ -717,7 +737,9 @@ vetical menu */
     column-gap: 4px;
     align-items: center;
 }
-
+.etiquetas-tect .demo:hover{
+    color: #0cd2ec;
+}
 
 .item-project h1{
     font-size: 20px;
