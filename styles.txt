@@ -1,3 +1,561 @@
 negro : 1F2124
 
 azul: 17B7CB
+
+//item project backup
+
+
+    <section class="container-projects" id="Proyectos">
+
+        <h1 class="title-projects" >Proyectos</h1>
+
+
+        <div class="container-category">
+
+            <label class="list-category"  data-filter="TODOS">Todos</label>
+            <label class="list-category"   data-filter="BACK">Back-End</label>
+            <label class="list-category"   data-filter="FRONT">Front-End</label>
+        </div>
+
+ 
+        <div class="container-projects-main" >
+
+
+    
+
+            <div class="item-project" data-category="FRONT" >
+                
+                <img src="./Assets/images/projects/Api-dad-Jokes.PNG" alt="">
+
+                <div class="item-body">
+
+                    <h1>Usando Api de Dad Jokes</h1>
+
+                    <p>
+                        Página que web permite la generación de chistes aleatoriamente.
+                    </p>
+    
+                    <div class="etiquetas-tect">
+    
+                        <span>Html</span>
+                        <span>Css</span>
+                        <span>Js</span>
+                        <span>Api</span>
+    
+                        <a href="https://github.com/Yormenxx/DAD-JOKES-API" target="_blank">Github</a>
+                        <a href="" target="" class="demo" style="pointer-events: none; ">Demo</a>
+                    </div>
+
+
+                </div>
+
+
+                
+            </div>
+
+
+            <div class="item-project FRONT" data-category="FRONT" >
+                
+                <img src="./Assets/images/projects/Architect-landing.PNG" alt="">
+
+                <h1>Architects fan landing</h1>
+
+                <p>Página web inspirada en la banda Inglesa de metalcore ,Architects.</p>
+
+                <div class="etiquetas-tect">
+
+                    <span>Html</span>
+                    <span>Css</span>
+
+                    <a href="https://github.com/Yormenxx/ARCHITECTS--FAN-PAGE" target="_blank">Github</a>
+                    <a href="https://yormenxx.github.io/ARCHITECTS--FAN-PAGE/" target="_blank" class="demo">Demo</a>
+
+                </div>
+                
+            </div>
+
+
+
+            <div class="item-project FRONT" data-category="FRONT" >
+                
+                <img src="./Assets/images/projects/card-interactiva.PNG" alt="">
+
+                <h1>Cards interactivas</h1>
+
+                <p>Card que permite guardar de manera dinamica los datos de una tarjeta de credito.</p>
+
+                <div class="etiquetas-tect">
+
+                    <span>Html</span>
+                    <span>Css</span>
+                    <span>Js</span>
+                    <a href="https://github.com/Yormenxx/INTERACTIVE-CARDS" target="_blank">Github</a>
+                    <a href="https://yormenxx.github.io/INTERACTIVE-CARDS/" target="_blank" class="demo">Demo</a>
+                </div>
+                
+            </div>
+
+
+
+
+            <div class="item-project BACK" data-category="BACK" >
+                
+                <img src="./Assets/images/projects/Crud-firebase.PNG" alt="">
+
+                <h1>Crud con Firebase</h1>
+
+                <p>Aplicación que permite realizar las operaciones básicas con BBDD</p>
+
+                <div class="etiquetas-tect">
+
+                    <span>Html</span>
+                    <span>Css</span>
+                    <span>Js</span>
+                    <span>Firebase</span>
+                    <a href="https://github.com/Yormenxx/CRUD-FIREBASE" target="_blank">Github</a>
+                    <a href="" target="_blank" class="demo" style="pointer-events: none;">Demo</a>
+                </div>
+                
+            </div>
+
+
+
+
+            <div class="item-project FRONT" data-category="FRONT" >
+                
+                <img src="./Assets/images/projects/Encriptador.PNG" alt="">
+
+                <h1>Encriptador y desencriptador</h1>
+
+                <p>Proyecto que permite desencriptar y encriptar texto.</p>
+
+                <div class="etiquetas-tect">
+
+                    <span>Html</span>
+                    <span>Css</span>
+                    <span>Js</span>
+                    <a href="https://github.com/Yormenxx/ENCRIPTADOR-TEXTO" target="_blank">Github</a>
+                    <a href="https://yormenxx.github.io/ENCRIPTADOR-TEXTO/" target="_blank" class="demo">Demo</a>
+                </div>
+                
+            </div>
+
+
+            <div class="item-project FRONT" data-category="FRONT" >
+                
+                <img src="./Assets/images/projects/error-404.PNG" alt="">
+
+                <h1>Pagina de error 404</h1>
+
+                <p>Creación básico de una página de error 404.</p>
+
+                <div class="etiquetas-tect">
+
+                    <span>Html</span>
+                    <span>Css</span>
+
+                    <a href="">Github</a>
+                    <a href="" target="_blank" class="demo">Demo</a>
+                    
+                </div>
+                
+            </div>
+
+            <div class="item-project FRONT" data-category="FRONT" >
+                
+                <img src="./Assets/images/projects/Fylo-landing.PNG" alt="">
+
+                <h1>Landing page Fylo</h1>
+
+                <p>Creación de una Lnading page basada en una empresa Fylo</p>
+
+                <div class="etiquetas-tect">
+
+                    <span>Html</span>
+                    <span>Css</span>
+                    <span>Js</span>
+                    <a href="https://github.com/Yormenxx/FLYO-LANDING-PAGE" target="_blank">Github</a>
+                    <a href="" target="_blank" class="demo">Demo</a>
+                </div>
+                
+            </div>
+
+            <div class="item-project FRONT" data-category="FRONT" >
+                
+                <img src="./Assets/images/projects/random-quote.PNG" alt="">
+
+                <h1>Api random quote generator</h1>
+
+                <p>Sitio que genera aleatoriamente un cita de cualquier poema aleatoriamente.</p>
+
+                <div class="etiquetas-tect">
+
+                    <span>Html</span>
+                    <span>Css</span>
+                    <span>Js</span>
+
+                    <a href="https://github.com/Yormenxx/RANDOM-QUOTE-GENERATOR-API" target="_blank">Github</a>
+                    <a href="https://yormenxx.github.io/RANDOM-QUOTE-GENERATOR-API/" target="_blank" class="demo">Demo</a>
+                </div>
+                
+            </div>
+
+            <div class="item-project FRONT" data-category="FRONT" >
+                
+                <img src="./Assets/images/projects/reproductor-nofuncional.PNG" alt="">
+
+                <h1>Reproductor no funcional</h1>
+
+                <p>Diseño básico de un reproductor no funcional de música.</p>
+
+                <div class="etiquetas-tect">
+
+                    <span>Html</span>
+                    <span>Css</span>
+
+                    <a href="https://github.com/Yormenxx/BASIC-REPRODUCTO-DE-M-SICA" target="_blank">Github</a>
+                    <a href="" target="_blank" class="demo">Demo</a>
+                  
+                </div>
+                
+            </div>
+
+            <div class="item-project FRONT" data-category="FRONT">
+                
+                <img src="./Assets/images/projects/Url-api-landing.PNG" alt="">
+
+                <h1>Api shortener mas landing page</h1>
+
+                <p>Landing page inspirada en shortener y uso de su misma Api</p>
+
+                <div class="etiquetas-tect">
+
+                    <span>Html</span>
+                    <span>Css</span>
+                    <span>Js</span>
+                    <span>Api</span>
+
+                    <a href="https://github.com/Yormenxx/SHORTLY-PAGE-API" target="_blank">Github</a>
+                    <a href="https://yormenxx.github.io/SHORTLY-PAGE-API/" target="_blank" class="demo">Demo</a>
+                </div>
+                
+            </div>
+
+
+            <div class="item-project FRONT" data-category="FRONT">
+                
+                <img src="./Assets/images/projects/advice-api.PNG" alt="">
+
+                <h1>Advice api</h1>
+
+                <p>Página que genera aleatoriamente un consejo.</p>
+
+                <div class="etiquetas-tect">
+
+                    <span>Html</span>
+                    <span>Css</span>
+                    <span>Js</span>
+                    <span>Api</span>
+
+                    <a href="https://github.com/Yormenxx/ADVICE-GENERATOR-API" target="_blank">Github</a>
+                    <a href="" target="_blank" class="demo">Demo</a>
+                </div>
+                
+            </div>
+
+
+            <div class="item-project FRONT" data-category="FRONT">
+                
+                <img src="./Assets/images/projects/basic-login.PNG" alt="">
+
+                <h1>Basic login</h1>
+
+                <p>Diseño básico de un login de usuario.</p>
+
+                <div class="etiquetas-tect">
+
+                    <span>Html</span>
+
+                    <span>Css</span>
+
+                    <a href="https://github.com/Yormenxx/BASIC-LOGIN" target="_blank">Github</a>
+                    <a href="" target="_blank" class="demo">Demo</a>
+                   
+                </div>
+                
+            </div>
+
+            
+
+            <div class="item-project FRONT" data-category="FRONT">
+                
+                <img src="./Assets/images/projects/calculadora.PNG" alt="">
+
+                <h1>Calculadora</h1>
+
+                <p>Creación de una calculadora básica que permite cambiar de color.</p>
+
+                <div class="etiquetas-tect">
+
+                    <span>Html</span>
+                    <span>Css</span>
+                    <span>Js</span>
+
+                    <a href="https://github.com/Yormenxx/CALCULATOR-JS" target="_blank">Github</a>
+                    <a href="" target="_blank" class="demo">Demo</a>
+                </div>
+                
+            </div>
+
+
+            
+
+            <div class="item-project FRONT" data-category="FRONT">
+                
+                <img src="./Assets/images/projects/easybank-landing.PNG" alt="">
+
+                <h1>Easy bank landing</h1>
+
+                <p>Landing page teniendo como referencia Easy bank.</p>
+
+                <div class="etiquetas-tect">
+
+                    <span>Html</span>
+                    <span>Css</span>
+                    <span>Js</span>
+
+                    <a href="https://github.com/Yormenxx/EASYBANK-LANDING-PAGE" target="_blank">Github</a>
+                    <a href="" target="_blank" class="demo">Demo</a>
+                </div>
+                
+            </div>
+
+            
+
+            <div class="item-project FRONT" data-category="FRONT">
+                
+                <img src="./Assets/images/projects/ecommerce-nofunctional.PNG" alt="">
+
+                <h1>Ecommerce no functional</h1>
+
+                <p>Creación de una ecommerce no funcional de videojuegos.</p>
+
+                <div class="etiquetas-tect">
+
+                    <span>Html</span>
+                    <span>Css</span>
+                    <span>Js</span>
+
+                    <a href="https://github.com/Yormenxx/NO-FUNCTIONAL-ECOMMERCE" target="_blank">Github</a>
+                    <a href="" target="_blank" class="demo">Demo</a>
+                </div>
+                
+            </div>
+
+            
+
+            <div class="item-project FRONT" data-category="FRONT">
+                
+                <img src="./Assets/images/projects/fan-halo-web.PNG" alt="">
+
+                <h1>Halo landing page</h1>
+
+                <p>Creación de un landing page, inspirado en el videojuego de Halo.</p>
+
+                <div class="etiquetas-tect">
+
+                    <span>Html</span>
+                    <span>Css</span>
+                    <span>Js</span>
+
+                    <a href="https://github.com/Yormenxx/FAN-HALO-WEB" target="_blank">Github</a>
+                    <a href="https://yormenxx.github.io/FAN-HALO-WEB/" target="_blank" class="demo">Demo</a>
+                </div>
+                
+            </div>
+
+            
+
+            <div class="item-project FRONT" data-category="FRONT">
+                
+                <img src="./Assets/images/projects/random-api.PNG" alt="">
+
+                <h1>Random user api</h1>
+
+                <p>Página que perimite la creación de manera aleatoria de usuario de internet</p>
+
+                <div class="etiquetas-tect">
+
+                    <span>Html</span>
+                    <span>Css</span>
+                    <span>Js</span>
+                    <span>Api</span>
+
+                    <a href="https://github.com/Yormenxx/RANDOM-USER-API" target="_blank">Github</a>
+                    <a href="" target="_blank" class="demo">Demo</a>
+                </div>
+                
+            </div>
+
+            
+
+            <div class="item-project FRONT" data-category="FRONT">
+                
+                <img src="./Assets/images/projects/slider-autos.PNG" alt="">
+
+                <h1>Slider cars</h1>
+
+                <p>Practicando el Slide manual de un sitio.</p>
+
+                <div class="etiquetas-tect">
+
+                    <span>Html</span>
+                    <span>Css</span>
+                    <span>Js</span>
+
+                    <a href="https://github.com/Yormenxx/CAR-SLIDER" target="_blank">Github</a>
+                    <a href="" target="_blank" class="demo">Demo</a>
+                </div>
+                
+            </div>
+
+            <div class="item-project BACK" data-category="BACK">
+                
+                <img src="./Assets/images/projects/Books-ne.png" alt="">
+
+                <h1>Almacen de libros</h1>
+
+                <p>Web que permite almacenar datos y mostrarlos.</p>
+
+                <div class="etiquetas-tect">
+
+                    <span>Node js</span>
+                    <span>Express js</span>
+                    <span>Ejs</span>
+                    <span>Css</span>
+
+                    <a href="https://github.com/Yormenxx/ALMACEN-DE-LIBROS" target="_blank">Github</a>
+                    <a href="" target="_blank" class="demo">Demo</a>
+                </div>
+                
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+
+css
+
+
+/* Proyectos*/
+.container-projects{
+
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    
+}
+
+.title-projects{
+    margin: 0 0 30px 0;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--mainColor);
+    margin-bottom: 0 auto;
+    filter: drop-shadow(0px 0px 8px rgba(0,182,206,0.51));
+    text-transform: uppercase;
+}
+.container-projects-main::-webkit-scrollbar-track {
+    background-color: rgb(11, 11, 11);
+  }
+
+.container-projects-main::-webkit-scrollbar-thumb{
+    background-color: #000000;
+}
+.container-projects-main::-webkit-scrollbar{
+    width: 0;
+}
+.container-projects-main{
+    padding: 60px;
+    height: 500px;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+    justify-content: center;
+    scrollbar-width: thin;
+    scrollbar-color: #000000 #000;
+}
+
+
+
+.item-project{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 280px;
+    height: 250px;
+    padding: 5px;
+    background-color: white;
+    text-align: left;
+    border-radius: 5px;
+    color: black;
+    
+}
+
+
+.item-project:hover{
+    background-color: transparent;
+    color:var(--whiteColor);
+    border: 1px solid white;
+    transition: .4s;
+    transform: translate(5px,-5px);
+
+}
+
+.item-project img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.etiquetas-tect{
+    display: flex;
+    column-gap: 4px;
+    align-items: center;
+}
+.etiquetas-tect .demo:hover{
+    color: #0cd2ec;
+}
+
+.item-project h1{
+    font-size: 20px;
+
+}
+
+.etiquetas-tect span{
+    padding: 5px;
+    background-color: #0c0c0c8c;
+    color: var(--whiteColor);
+    font-size: 10px;
+    border-radius: 2px;
+}
+
+.etiquetas-tect span:hover{
+    background-color: var(--mainColor);
+}
+
+
+.etiquetas-tect a{
+    text-decoration: none;
+    color: #666;
+    font-size: 14px;
+}
+
+.etiquetas-tect a:hover{
+    color: #ea5358;
+}
