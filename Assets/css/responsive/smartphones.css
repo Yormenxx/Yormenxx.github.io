@@ -158,7 +158,6 @@
     }
     
     .container_ham{
-       
         display: block;
         color: white;
         cursor: pointer;
@@ -292,7 +291,6 @@
     }
     
     .container_ham{
-       
         display: block;
         color: white;
         cursor: pointer;
@@ -547,10 +545,9 @@ textarea{
     .toggle-activate{
         cursor: pointer;
         display: flex;
-        right: 0;
+        
        
     }
-
     .chevron-up-container{
         position: fixed;
         display: flex;

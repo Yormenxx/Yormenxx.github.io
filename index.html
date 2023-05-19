@@ -8,16 +8,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./Assets/css/main.css">
+    <link rel="stylesheet" href="/Assets/css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./Assets/css/scrollbar.css">
+    <link rel="stylesheet" href="/Assets/css/scrollbar.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
-    <link rel="stylesheet" href="./Assets/css/modalHojaVida.css">
-    <link rel="stylesheet" href="./Assets/css/filter-items.css">
-    <link rel="stylesheet" href="./Assets/css/preloader.css">
-    <link rel="stylesheet" href="./Assets/css/responsive/smartphones.css">
-    <link rel="stylesheet" href="./Assets/css/filter-items.css">
+    <link rel="stylesheet" href="/Assets/css/modalHojaVida.css">
+    <link rel="stylesheet" href="/Assets/css/filter-items.css?">
+    <link rel="stylesheet" href="/Assets/css/preloader.css">
+    <link rel="stylesheet" href="/Assets/css/responsive/smartphones.css?">
+    <link rel="stylesheet" href="/Assets/css/filter-items.css?">
     <title>Juma || Portafolio</title>
 
 
@@ -38,7 +37,7 @@
             <div class="orbe" style="--index: 4"></div>
         </div>
 
-    </div> 
+    </div>  
 
    
 
@@ -67,15 +66,15 @@
 
             <ul class="list__navbar" id="list__navbar">
                 <li >
-                    <a href="#Acercade" >Acerca de</a>
+                    <a href="#Acercade"  >Acerca de</a>
                 </li>
+<!-- 
+                <li >
+                    <a href="#SkillsPro" >Habilidades</a>
+                </li> -->
 
                 <li >
-                    <a href="#SkillsPro">Habilidades</a>
-                </li>
-
-                <li >
-                    <a href="#Proyectos">Proyectos</a>
+                    <a href="#Proyectos" >Proyectos</a>
                 </li>
 
                 <li >
@@ -139,13 +138,15 @@
 
         <div class="container__main_items">
             
-                <div class="container__information">
+                <div class="container__information" >
+
+                    
             
-                    <span class="first-info-part"  ><span class="port-text">¡Hola visitante!</span>  &#128075 soy Juan , y estas viendo mi portafolio.</span>
+                    <span class="first-info-part"><span class="port-text">¡Hola visitante!</span>  &#128075 soy Juan , y estas viendo mi portafolio.</span>
                 
                     <br>
                     <br>
-                    <span class="auto-typed" id="typed" ></span>
+                    <span class="auto-typed" id="typed"></span>
 
                     <br>
                     <br>
@@ -261,122 +262,130 @@
 
         <div class="container-items--about">
 
-            <div class="container-item-logo">
-                
-                <div class="circle-logo" >
-                    <div class="content-logo">
-                        <img src="/Assets/images/juma.png" alt="">
-                    </div>
-                </div>
-
-
-            </div>
-
-
-        
-
+      
             <div class="container-text-about">
+                <div class="container-img-about">
+                    <img src="/Assets/images/juma-bw.png" alt="juma-bw" id="img-items-about">
+                    <p>Juan Ortiz</p>
+                    <p>juanma749@outlook.es</p>
+                    <p>Desarrollador y Analista de Sistemas enfocado en el back-end</p>
 
-                <h1 >Acerca de mi.</h1>
+                    <div class="container-github-info">
 
-                <p >
-                    ·Mi nombre es Juan , soy desarrollador <span class="port-text2">back-end</span>  con enfasis en tecnologias como Java, Express(Node js), y algo de python básico.
-                    <br>
+                        <div class="items-git">
+                            <h1>Seguidores</h1>
+                            <h2>7</h2>
+                        </div>
 
-                    ·Soy <span class="port-text">Analista y Desarrollador</span>  de Sistemas de Información.
-                    <br>
-                    ·Del lado de las bases de datos tengo conocimientos en <span class="port-text2"> Mysql workbench y Mongodb.</span> 
-                    <br>
-                    ·De manera de general, las tenoclogías que uso son Html Astro Css Sass Javascript, TypeScript,
-                    del lado del Front-End
-                    <br>
-                    ·Entendiendo el <span class="port-text">ciclo de vida</span>  de software tradicionales.
-                    <br>
-                    ·Consolidando temas importantes como <span class="port-text2">S.O.L.I.D y clean code.</span> 
-                    <br>
-                    ·Incorporando y desarrollando <span class="port-text"> API's y CRUD's</span>
-                    <br>
-                    ·Poseo ciertos conocimientos en análisis de datos en tecnologias como <span class="port-text2"> Tableu,Excel y R.</span> 
-                    <br>
-                    ·Uso herramientas como Sequelize, Xampp, Git, Github.
-                    <br>
-                    ·Por último encontrarás en mi github varios proyectos que he realizado en distintas tecnologias.
+                        <div class="items-git">
+                            <h1>Seguidos</h1>
+                            <h2>14</h2>
+                        </div>
 
-                    
-                    
+                        <div class="items-git">
+                            <h1>Repositorios</h1>
+                            <h2>51</h2>
+                        </div>
+                    </div>
 
-                    <br>
-                    <br>
-
-                </p>
-
-                <div class="container-elements-exter" id="Skills" >
-                    <button href="" class="btn_hv" id="open">Ver hoja de vida</button>
                 </div>
 
+                <div class="container-about">
 
-                <div id="modal_container" class="modal-container" >
-                    <div class="modal">
-                        <embed src="./Assets/images/Hoja-vida-f.pdf" type="" width="700" height="600">
-                        <button id="close">Cerrar</button>
-                    </div>
-                </div>
+                    
 
+                    <h1 >Acerca de mi & Estudios.</h1>
+                    <p>
+                        Soy programador y Analista y Desarrollador de Sistemas de Información enfocado en el Back-End
+                        desde hace 4 años he estado interesado en el mundo de la tecnología y su enfoque por un resultado
+                        optimo de los programas que se crean. <br>
+                        <br>
+                        He desarrollado Rest Api's en tecnologías como Nodejs, Express y Mysql. A pesar de tener
+                        un enfoque back-end he creado proyectos con enfoque en el front-end en Html, Css , Sass, Tailwindcss.
+                        <br><br>
+                        También tengo ligeros conocimientos en tencnologias de ciencia de datos como (Python, R, Excel y DB).
+                        <br>
+                        No olvides <a href="" style="color:#17B7CB ; text-decoration: none;">Contactarme.</a>
+                    </p>
+                    <div class="container--items-social" >
 
-                <h1 class="title-formacion" >Formación.</h1>
+                        <a  class="a-information-item" href=""><svg class="icon-information" viewBox="0 0 20 20" aria-hidden="true" focusable="false" fill="#17B7CB" xmlns="http://www.w3.org/2000/svg"><path d="M17 1H3c-1.1 0-2 .9-2 2v14c0 1.101.9 2 2 2h7v-7H8V9.525h2v-2.05c0-2.164 1.212-3.684 3.766-3.684l1.803.002v2.605h-1.197c-.994 0-1.372.746-1.372 1.438v1.69h2.568L15 12h-2v7h4c1.1 0 2-.899 2-2V3c0-1.1-.9-2-2-2z"/></svg></a>
 
-                <div class="container-formacion">
-
-                    <div class="item-formacion" >
-
-    
-                        <p class="time-label"><span>2023</span>Oracle - Alura</p>
-                        <p class="title-form">Formación en Programación</p>
-                        <p class="specif-content">Curso que permite el desarrollo de habilidades en programación. Especialidad escogida, Back-end.
-                        </p>
-
-                    </div>
-
-                    <div class="item-formacion" >
-
-                        <p class="time-label"><span>2023</span>Udemy</p>
-                        <p class="title-form">Universidad de Java</p>
-                        <p class="specif-content">Curso que permitirá la especilización en el lenguaje Java, en temas como JDBC, hibernate, spring , spring boot, patrones de diseños, programación orientada a objetos etc</p>
-
-                    </div>
-
-
-                    <div class="item-formacion" >
-
-                        <p class="time-label"><span>2022</span>Colnodo - Coursera</p>
-                        <p class="title-form">Análisis de datos.</p>
-                        <p class="specif-content">Curso que permite comprender como los analistas de datos preparan, procesan y analizan datos para poder guiar decisiones comerciales. También el desarrollo visualizaciones, las cuales comparten con partes interesadas, y cómo ofrecen recomendaciones basadas en datos.</p>
-
-                    </div>
-
-                    <div class="item-formacion" >
-
-                        <p class="time-label"><span>2020</span>SENA.</p>
-                        <p class="title-form">Tecnologo en Análisis y desarrollo de Sistemas de Información.</p>
-                        <p class="specif-content">Programa de formación que otorga conocimientos al aprendiz en la creación, prueba y mantenimiento de sistemas de información</p>
                         
+                        <a href="https://github.com/Yormenxx" target="_blank" class="a-information-item">                            
+                        <svg  class="icon-information" viewBox="0 0 16 16" aria-hidden="true" focusable="false" fill="#17B7CB" xmlns="http://www.w3.org/2000/svg"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+                        </a>
+
+
+
+                        <a href="mailto:juanma749@outlook.es?subject=%C2%A1%20Necesito%20m%C3%A1s%20informacio%C3%B3n%20sobre%20ti%20!&body=Hola%2C%20te%20contacto%20desde%20tu%20portafolio%20y%20quiero%20saber%20m%C3%A1s%20sobre%20tu%20experiencia." class="a-information-item">
+                            <svg class="icon-information" viewBox="0 0 23 23" aria-hidden="true" focusable="false" fill="#17B7CB" xmlns="http://www.w3.org/2000/svg"><path d="M20 4H6c-1.103 0-2 .897-2 2v5h2V8l6.4 4.8a1.001 1.001 0 0 0 1.2 0L20 8v9h-8v2h8c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm-7 6.75L6.666 6h12.668L13 10.75z"/><path d="M2 12h7v2H2zm2 3h6v2H4zm3 3h4v2H7z"/></svg>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/juan-manuel-ortiz-47b93424a/" target="_blank" class="a-information-item">
+                            <svg class="icon-information" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="#17B7CB" xmlns="http://www.w3.org/2000/svg"><path d="M20 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zM8.339 18.337H5.667v-8.59h2.672v8.59zM7.003 8.574a1.548 1.548 0 1 1 0-3.096 1.548 1.548 0 0 1 0 3.096zm11.335 9.763h-2.669V14.16c0-.996-.018-2.277-1.388-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248h-2.667v-8.59h2.56v1.174h.037c.355-.675 1.227-1.387 2.524-1.387 2.704 0 3.203 1.778 3.203 4.092v4.71z"/></svg>
+                        </a>
+
+
+ 
+
+ 
                     </div>
 
-                    <div class="item-formacion" >
-
-    
-                        <p class="time-label"><span>2020</span>Platzi.</p>
-                        <p class="title-form">Curso de programación básica.</p>
-                        <p class="specif-content">Curso que permite la comprensión de las principos fundamentales de la programación y en la web.</p>
-
-                    </div>
-
-
-             
-                    
                 </div>
-                
+
             </div>
+
+
+        </div>
+
+    <hr>
+
+   <br><br>
+        <div class="container-estudios">
+
+            <div class="item-estudio">
+
+                <h3>Programación básica </h3>
+                <h4>Platzi 2020</h4>
+                <p>Curso que permite la comprensión de las principos fundamentales de la programación y en la web.</p>
+
+            </div>
+
+            <div class="item-estudio">
+
+                <h3>Tecnologo ADSI </h3>
+                <h4>SENA 2020</h4>
+                <p>Programa de formación que otorga conocimientos al aprendiz en la creación, prueba y mantenimiento de sistemas de información</p>
+
+            </div>
+
+            <div class="item-estudio">
+
+                <h3>Análisis de datos </h3>
+                <h4>Colnodo - Coursera 2022</h4>
+                <p>Curso que permite comprender como los analistas de datos preparan, procesan y analizan datos para poder guiar decisiones comerciales.</p>
+
+            </div>
+
+            <div class="item-estudio">
+
+                <h3>Universidad de Java</h3>
+                <h4>Udemy 2022</h4>
+                <p>Curso que permitirá la especilización en el lenguaje Java, en temas como JDBC, hibernate, spring , spring boot, patrones de diseños, POO etc</p>
+
+            </div>
+
+
+            
+            <div class="item-estudio">
+
+                <h3>Oracle programación</h3>
+                <h4>Oracle - Alura 2023</h4>
+                <p>Curso que permite el desarrollo de habilidades en programación. Especialidad escogida, Back-end. </p>
+
+            </div>
+
 
         </div>
 
@@ -386,56 +395,13 @@
 
    <span id="SkillsPro"></span>
 
-    <section class="habilidades-container" >
-
-        <h1>Habilidades.</h1>
-
-        <div  class="skills--container-main" >
-
-          
-                <img  class="item-skills" src="./Assets/images/icons/languages/javascript-svgrepo-com.svg" alt="Javascript">
-                <img  class="item-skills" src="./Assets/images/icons/languages/typescript-icon-svgrepo-com.svg" alt="TypeScript">
-                <img  class="item-skills" src="./Assets/images/icons/languages/tech/css-3-svgrepo-com.svg" alt="css">
-                <img  class="item-skills" src="./Assets/images/icons/languages/tech/html-5-svgrepo-com.svg" alt="html">
-                <img  class="item-skills" src="./Assets/images/icons/languages/tech/sass-svgrepo-com.svg" alt="Sass">
-     
-
-                <img  class="item-skills" src="./Assets/images/icons/languages/python-svgrepo-com.svg" alt="python">
-                <img  class="item-skills" src="./Assets/images/icons/languages/java-svgrepo-com.svg" alt="java">
-                <img  class="item-skills" src="./Assets/images/icons/languages/tech/firebase-svgrepo-com.svg" alt="firebase">
-                <img  class="item-skills" src="./Assets/images/icons/languages/tech/mongodb-svgrepo-com.svg" alt="mongodb">
-                <img  class="item-skills" src="./Assets/images/icons/languages/tech/mysql-logo-svgrepo-com.svg" alt="mysql">
-                <img  class="item-skills" src="./Assets/images/icons/languages/tech/node-js-svgrepo-com.svg" alt="nodejs">
-                <img  class="item-skills" src="./Assets/images/icons/languages/tech/express-svgrepo-com.svg" alt="express">
-
-
-        
-                <img  class="item-skills" src="./Assets/images/icons/languages/tech/figma-svgrepo-com.svg" alt="figma">
-                <img  class="item-skills" src="./Assets/images/icons/languages/tech/git-svgrepo-com.svg" alt="git">
-                <img  class="item-skills" src="./Assets/images/icons/languages/tech/github-svgrepo-com.svg" alt="github">
-             
-
-              
-
-        </div>
-
-
-
-    </section>
-
-    
 
     <section class="container-projects" id="Proyectos">
 
-        <h1 class="title-projects" >Proyectos</h1>
+        <h1 class="title-projects" >Proyectos.</h1>
 
 
-        <div class="container-category">
 
-            <label class="list-category"  data-filter="TODOS">Todos</label>
-            <label class="list-category"   data-filter="BACK">Back-End</label>
-            <label class="list-category"   data-filter="FRONT">Front-End</label>
-        </div>
 
  
         <div class="container-projects-main" >
@@ -724,404 +690,11 @@
                 
             </div>
 
-            <div class="item-project FRONT" data-category="FRONT" >
-                
-                <img src="./Assets/images/projects/reproductor-nofuncional.PNG" alt="">
 
-
-                <div class="container-item-body">
-                    
-                    <div class="item-body">
-
-                        <h1>Reproductor no funcional</h1>
-
-                        <p>Diseño básico de un reproductor no funcional de música.</p>
-
-                        <h2>Tecnologías</h2>
-        
-                        <div class="etiquetas-tect">
-        
-                            <span>Html</span>
-                            <span>Css</span>
-        
-                            <a href="https://github.com/Yormenxx/BASIC-REPRODUCTO-DE-M-SICA" target="_blank">Github</a>
-                            <a href="" target="_blank" class="demo">Demo</a>
-                          
-                        </div>
-
-
-                       
-
-                    </div>
-                </div>
-
-
-                
-            </div>
-
-            <div class="item-project FRONT" data-category="FRONT">
-                
-                <img src="./Assets/images/projects/Url-api-landing.PNG" alt="">
-
-
-                <div class="container-item-body">
-                    
-                    <div class="item-body">
-
-                        <h1>Api shortener mas landing page</h1>
-
-                        <p>Landing page inspirada en shortener y uso de su misma Api</p>
-
-                        <h2>Tecnologías</h2>
-        
-                        <div class="etiquetas-tect">
-        
-                            <span>Html</span>
-                            <span>Css</span>
-                            <span>Js</span>
-                            <span>Api</span>
-        
-                            <a href="https://github.com/Yormenxx/SHORTLY-PAGE-API" target="_blank">Github</a>
-                            <a href="https://yormenxx.github.io/SHORTLY-PAGE-API/" target="_blank" class="demo">Demo</a>
-                        </div>
-
-
-                     
-
-                    </div>
-                </div>
-
-
-                
-            </div>
-
-
-            <div class="item-project FRONT" data-category="FRONT">
-                
-                <img src="./Assets/images/projects/advice-api.PNG" alt="">
-
-                <div class="container-item-body">
-                    
-                    <div class="item-body">
-
-                        
-                        <h1>Advice api</h1>
-
-                        <p>Página que genera aleatoriamente un consejo.</p>
-
-                        <h2>Tecnologías</h2>
-
-                        <div class="etiquetas-tect">
-
-                            <span>Html</span>
-                            <span>Css</span>
-                                <span>Js</span>
-                            <span>Api</span>
-
-                            <a href="https://github.com/Yormenxx/ADVICE-GENERATOR-API" target="_blank">Github</a>
-                            <a href="" target="_blank" class="demo">Demo</a>
-                         </div>
-
-
-               
-
-                    </div>
-                </div>
-
-                
-            </div>
-
-
-            <div class="item-project FRONT" data-category="FRONT">
-                
-                <img src="./Assets/images/projects/basic-login.PNG" alt="">
-
-                <div class="container-item-body">
-                    
-                    <div class="item-body">
-
-                        <h1>Basic login</h1>
-
-                        <p>Diseño básico de un login de usuario.</p>
-
-                        
-                        <h2>Tecnologías</h2>
-        
-                        <div class="etiquetas-tect">
-        
-                            <span>Html</span>
-        
-                            <span>Css</span>
-        
-                            <a href="https://github.com/Yormenxx/BASIC-LOGIN" target="_blank">Github</a>
-                            <a href="" target="_blank" class="demo">Demo</a>
-                           
-                        </div>
-
-
-
-                    </div>
-                </div>
-
-
-                
-            </div>
-
-            
-
-            <div class="item-project FRONT" data-category="FRONT">
-                
-                <img src="./Assets/images/projects/calculadora.PNG" alt="">
-
-                <div class="container-item-body">
-                    
-                    <div class="item-body">
-
-                        <h1>Calculadora</h1>
-
-                        <p>Creación de una calculadora básica que permite cambiar de color.</p>
-
-                        <h2>Tecnologías</h2>
-        
-                        <div class="etiquetas-tect">
-        
-                            <span>Html</span>
-                            <span>Css</span>
-                            <span>Js</span>
-        
-                            <a href="https://github.com/Yormenxx/CALCULATOR-JS" target="_blank">Github</a>
-                            <a href="" target="_blank" class="demo">Demo</a>
-                        </div>
-                        
-
-
-             
-
-                    </div>
-                </div>
-
-
-            </div>
-
-
-            
-
-            <div class="item-project FRONT" data-category="FRONT">
-                
-                <img src="./Assets/images/projects/easybank-landing.PNG" alt="">
-
-                <div class="container-item-body">
-                    
-                    <div class="item-body">
-
-                        <h1>Easy bank landing</h1>
-
-                        <p>Landing page teniendo como referencia Easy bank.</p>
-
-                        <h2>Tecnologías</h2>
-        
-                        <div class="etiquetas-tect">
-        
-                            <span>Html</span>
-                            <span>Css</span>
-                            <span>Js</span>
-        
-                            <a href="https://github.com/Yormenxx/EASYBANK-LANDING-PAGE" target="_blank">Github</a>
-                            <a href="" target="_blank" class="demo">Demo</a>
-                        </div>
-
-
-                      
-
-                    </div>
-                </div>
-
-
-                
-            </div>
-
-            
-
-            <div class="item-project FRONT" data-category="FRONT">
-                
-                <img src="./Assets/images/projects/ecommerce-nofunctional.PNG" alt="">
-
-
-                <div class="container-item-body">
-                    
-                    <div class="item-body">
-
-                        <h1>Ecommerce no functional</h1>
-
-                        <p>Creación de una ecommerce no funcional de videojuegos.</p>
-
-                        <h2>Tecnologías</h2>
-        
-                        <div class="etiquetas-tect">
-        
-                            <span>Html</span>
-                            <span>Css</span>
-                            <span>Js</span>
-        
-                            <a href="https://github.com/Yormenxx/NO-FUNCTIONAL-ECOMMERCE" target="_blank">Github</a>
-                            <a href="" target="_blank" class="demo">Demo</a>
-                        </div>
-
-
-                       
-
-                    </div>
-                </div>
-
-
-                
-            </div>
-
-            
-
-            <div class="item-project FRONT" data-category="FRONT">
-                
-                <img src="./Assets/images/projects/fan-halo-web.PNG" alt="">
-
-                <div class="container-item-body">
-                    
-                    <div class="item-body">
-
-                        <h1>Halo landing page</h1>
-
-                        <p>Creación de un landing page, inspirado en el videojuego de Halo.</p>
-
-                        <h2>Tecnologías</h2>
-        
-                        <div class="etiquetas-tect">
-        
-                            <span>Html</span>
-                            <span>Css</span>
-                            <span>Js</span>
-        
-                            <a href="https://github.com/Yormenxx/FAN-HALO-WEB" target="_blank">Github</a>
-                            <a href="https://yormenxx.github.io/FAN-HALO-WEB/" target="_blank" class="demo">Demo</a>
-                        </div>
-
-
-                       
-
-                    </div>
-                </div>
-
-
-                
-            </div>
-
-            
-
-            <div class="item-project FRONT" data-category="FRONT">
-                
-                <img src="./Assets/images/projects/random-api.PNG" alt="">
-
-                <div class="container-item-body">
-                    
-                    <div class="item-body">
-
-                        <h1>Random user api</h1>
-
-                        <p>Página que perimite la creación de manera aleatoria de usuario de internet</p>
-
-                        
-                        <h2>Tecnologías</h2>
-        
-                        <div class="etiquetas-tect">
-        
-                            <span>Html</span>
-                            <span>Css</span>
-                            <span>Js</span>
-                            <span>Api</span>
-        
-                            <a href="https://github.com/Yormenxx/RANDOM-USER-API" target="_blank">Github</a>
-                            <a href="" target="_blank" class="demo">Demo</a>
-                        </div>
-
-
-
-                    </div>
-                </div>
-
-
-                
-            </div>
-
-            
-
-            <div class="item-project FRONT" data-category="FRONT">
-                
-                <img src="./Assets/images/projects/slider-autos.PNG" alt="">
-
-                <div class="container-item-body">
-                    
-                    <div class="item-body">
-
-                        <h1>Slider cars</h1>
-
-                        <p>Practicando el Slide manual de un sitio.</p>
-
-                        
-                        <h2>Tecnologías</h2>
-        
-                        <div class="etiquetas-tect">
-        
-                            <span>Html</span>
-                            <span>Css</span>
-                            <span>Js</span>
-        
-                            <a href="https://github.com/Yormenxx/CAR-SLIDER" target="_blank">Github</a>
-                            <a href="" target="_blank" class="demo">Demo</a>
-                        </div>
-
-
-
-                    </div>
-                </div>
-
-
-                
-            </div>
-
-            <div class="item-project BACK" data-category="BACK">
-                
-                <img src="./Assets/images/projects/Books-ne.png" alt="">
-
-                <div class="container-item-body">
-                    
-                    <div class="item-body">
-
-                        <h1>Almacen de libros</h1>
-
-                        <p>Web que permite almacenar datos y mostrarlos.</p>
-
-                        
-                        <h2>Tecnologías</h2>
-        
-                        <div class="etiquetas-tect">
-        
-                            <span>Node js</span>
-                            <span>Express js</span>
-                            <span>Ejs</span>
-                            <span>Css</span>
-        
-                            <a href="https://github.com/Yormenxx/ALMACEN-DE-LIBROS" target="_blank">Github</a>
-                            <a href="" target="_blank" class="demo">Demo</a>
-                        </div>
-
-
-
-                    </div>
-                </div>
-
-
-                
-            </div>
 
         </div>
+
+       <a id="project-link" href="./project.html">Ver todos lo proyectos</a>
 
 
     </section>
@@ -1129,25 +702,28 @@
 
     <section class="container-contact" id="Contacto">
 
-        <h1 class="title-contact">Contacta conmigo</h1>
+        <h1 class="title-contact">Contacta conmigo.</h1>
 
 
         <div class="container-items-contact">
 
-            <img class="img-contact" src="./Assets/images/snazzy-image.png" alt="">
+            <h2>Envia un mensaje por correo por si tienes alguna o duda o solo  quiere saludar.</h2>
+            <p>No olvides rellenar todos los campos</p>
 
 
-
-            
             <form action="https://formsubmit.co/23b8ab1835ef3199584f21f99fdb7ba5" method="POST">
 
-                <input type="text" name="nombre" placeholder="Nombre completo" required>
-    
-                <input type="email" name="email" placeholder="Ingresa tu correo electronico" required>
+                <div class="cnt-inputs">
+
+                    <input type="text" name="nombre" placeholder="Nombre completo" required>
+        
+                    <input type="email" name="email" placeholder="Ingresa tu correo electronico" required>
+
+                </div>
     
                 <textarea name="Mensaje" id="text-contact" require placeholder="Escribe un mensaje"></textarea>
     
-                <button type="submit" class="button-contact">Enviar</button>
+                <button type="submit" class="button-contact">Enviar <i class="fa-solid fa-arrow-right"></i></button>
             </form>
                     
 
@@ -1178,27 +754,22 @@
     <div class="container-items-last">
 
         <div class="container-items-links">
-            <a href="">Github</a>
-            <a href="">Linkedin</a>
+            <a href="https://github.com/Yormenxx">Github</a>
+            <a href="https://www.linkedin.com/in/juan-manuel-ortiz-47b93424a/">Linkedin</a>
             <a href="">HackerRank</a>
         </div>
 
-        <div class="container-idioma">
+        <div class="container-idioma" id="container-idioma">
 
-            <p>Inglés</p>
-            <p>Español</p>
+            <p class="language__item" data-language="en">Inglés</p>
+            <p class="language__item" data-language="es"> Español</p>
 
         </div>
     </div>
- 
-    <script src="./Js/preloader.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/kursor@0.0.14/dist/kursor.js"></script>
-    <script src="./Js/progress-bar.js"></script>
+
     <script src="./Js/index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="./Js/typed.js"></script>
-    <script src="./Js/navbarToggle.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
  
 </body>
 </html>

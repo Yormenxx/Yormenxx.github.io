@@ -1,0 +1,27 @@
+{
+
+    "Navbar":{
+        "item1" :"Acerca de",
+        "item2":"Habilidades",
+        "item3":"Proyectos",
+        "item4":"Contacto"
+
+    },
+
+    "main-info-item":{
+        "itemSaludo":"¡Hola visitante!"
+    },
+
+
+
+    "main-info":{
+        "saludo":"&#128075 soy Juan , y estas viendo mi portafolio.",
+        "autoType":"Analista de datos"
+        
+    }
+
+
+
+
+
+}

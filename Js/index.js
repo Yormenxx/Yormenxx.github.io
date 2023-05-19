@@ -1,5 +1,18 @@
+//PRELOADER
 
-// nav bar configurations
+
+const loader = document.getElementById("preloader") 
+
+window.addEventListener("load",()=>{
+    setTimeout(function(){
+        loader.style.display="none"
+    }, );
+})
+
+
+
+
+// NAVBAR CHANGE COLOR
 
 function changeBgColorNavBar(){
 
@@ -18,11 +31,22 @@ function changeBgColorNavBar(){
     }
 };
 
-
 window.addEventListener("scroll",changeBgColorNavBar);
 
+//NAVBAR TOGGLE
 
-//chevron up code
+const $btnResponsive = document.getElementById("btn_responsive"),
+
+$listNavBar = document.getElementById("list__navbar");
+
+$btnResponsive.addEventListener("click",()=>{
+
+$listNavBar.classList.toggle("toggle-activate");
+
+})
+
+
+//CHEVRON UP
 
 const $chevron = document.getElementById("chevron-up")
 
@@ -46,19 +70,21 @@ window.onscroll = () =>{
 
 }
 
-//Hoja de vida
+//PROGRESS BAR
 
-const open = document.getElementById('open');
-const modal_container = document.getElementById('modal_container');
-const close = document.getElementById('close');
 
-open.addEventListener('click', () => {
-  modal_container.classList.add('show');  
-});
+window.addEventListener("load",()=>{
 
-close.addEventListener('click', () => {
-  modal_container.classList.remove('show');
-});
+    const progress = document.getElementById("progress")
+    requestAnimationFrame(update)
+})
+
+function update (){
+    progress.style.width = `${((window.scrollY) / (document.body.scrollHeight - window.innerHeight)*100)}%`
+    requestAnimationFrame(update)
+}
+
+
 
 
 
@@ -103,41 +129,3 @@ close.addEventListener('click', () => {
 
 //     })
 // }
-
-
-(function(){
-
-    const $itemList = document.querySelectorAll(".list-category");
-    const $itemProject = document.querySelectorAll(".item-project");
-    
-    $itemList.forEach((button)=>{
-        button.addEventListener("click",(e)=>{
-            e.preventDefault()
-
-            const filter = e.target.dataset.filter
-
-            $itemProject.forEach((item)=>{
-
-                if(filter === "TODOS"){
-                    item.style.display = "flex"
-                } else{
-
-                    if(item.classList.contains(filter)){
-                        item.style.display = "flex"
-
-                    } else{
-                        item.style.display = "none"
-                    }
-                }
-            })
-        })
-    })
-    
-
-
-
-
-})();   
-
-
-
