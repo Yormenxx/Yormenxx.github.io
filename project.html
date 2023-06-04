@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="/Assets/css/preloader.css">
     <link rel="stylesheet" href="/Assets/css/responsive/smartphones.css">
     <link rel="stylesheet" href="/Assets/css/filter-items.css">
+    <link rel="stylesheet" href="./Assets/css/whiteMode.css">
     <title>Juma || Portafolio</title>
 
 
@@ -39,6 +40,11 @@
             <i class="fa-solid fa-chevron-up" style="color:white ;"></i>
         </div>
     </div>
+
+    <div class="progress-bar">
+        <div id="progress" class="progress"></div>
+    </div>
+
 
     <span id="Inicio"></span>
     <header>
@@ -65,6 +71,19 @@
                 <li >
                     <a href="./index.html#Contacto">  <i style="margin-right: 9px;" class="fa-solid fa-phone-volume"></i> Contacto</a>
                 </li>
+
+                <li>
+                    <!-- <button id="bMode"> whiteMode</button> -->
+
+                    <div>
+                        <input type="checkbox" class="checkbox" id="checkbox">
+                        <label for="checkbox" class="checkbox-label">
+                            <i class="fas fa-moon"></i>
+                            <i class="fas fa-sun"></i>
+                          <span class="ball"></span>
+                        </label>
+                      </div>
+                </li>
             </ul>
 
 
@@ -89,12 +108,26 @@
 
         <h1 class="title-projects" >Proyectos.</h1>
 
+        <div class="about-projects-text">
+
+            <!-- <img src="./Assets/images/70310-programming-concept-illustration(2).gif" alt=""> -->
+            <p>
+                Estos son algunos de los proyectos que he realizado en diferentes tecnologías, tambien he hecho otros
+                para practicar código que se puede usar en desarrollo de aplicaciones reales, como por ejemplo usando 
+                mercado de pago, stripe js , swing o Servlets etc. también se encontrarán herramientas para  la web
+                como extensiones para chrome o visual studio.
+            </p>
+
+            
+        </div>
+
 
         <div class="container-category">
 
             <label class="list-category"   data-filter="TODOS">Todos</label>
             <label class="list-category"   data-filter="BACK">Back-End</label>
             <label class="list-category"   data-filter="FRONT">Front-End</label>
+            <label class="list-category"   data-filter="OTROS">Otros</label>
         </div>
     
 
@@ -786,6 +819,22 @@
 
 
     </section>
+
+
+    <footer >
+
+
+        <h1 class="title-footer">Ejecuta tus conocimientos con la maestría del que sigue aprendiendo. </h1>
+
+        <p > Juan Ortiz © All Right Reserved</p>
+
+        <img src="./Assets/images/juma.png" alt="logo" >
+
+        <div class="container-final">
+            <p >Hecho con ❤ y ☕</p>
+        </div>
+    
+    </footer>
 
 
     <script src="./Js/index.js"></script>

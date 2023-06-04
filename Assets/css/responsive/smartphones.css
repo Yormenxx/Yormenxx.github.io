@@ -301,7 +301,17 @@
     .logo__navbar{
         width: 50px;
     }
+    .whiteMode  .list__navbar{
+        background-color: white;
+        
+    }
+
     
+    .whiteMode .container_ham{
+        display: block;
+        color: black;
+        cursor: pointer;
+    }
     .container_ham{
         display: block;
         color: white;
@@ -461,7 +471,16 @@
     }
         
 
-    
+    .cnt-inputs{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+        margin-bottom: 20px;
+       
+        
+    }
     
     
     
@@ -502,6 +521,18 @@
     }
     
     .list__navbar  a:hover{
+        cursor: pointer;
+    }
+
+    .whiteMode  .list__navbar{
+        background-color: white;
+        
+    }
+
+    
+    .whiteMode .container_ham{
+        display: block;
+        color: black;
         cursor: pointer;
     }
     
@@ -716,8 +747,10 @@ form{
     padding: 10px;
 }
 .cnt-inputs{
+    width: 89%;
     display: flex;
-    column-gap: 20px;
+    flex-direction: column;
+    row-gap: 20px;
     margin-bottom: 20px;
     
 }
@@ -784,6 +817,18 @@ form button:hover{
         transition: 2s;
         cursor: pointer;
     }
+
+    .whiteMode  .list__navbar{
+        background-color: white;
+        
+    }
+
+    
+    .whiteMode .container_ham{
+        display: block;
+        color: black;
+        cursor: pointer;
+    }
     
     .list__navbar  a:hover{
         cursor: pointer;
@@ -800,6 +845,7 @@ form button:hover{
         color: white;
         cursor: pointer;
     }
+
 
     .toggle-activate{
         cursor: pointer;
@@ -986,8 +1032,10 @@ form{
     padding: 10px;
 }
 .cnt-inputs{
+    width: 70%;
     display: flex;
-    column-gap: 20px;
+    flex-direction: column;
+    row-gap: 20px;
     margin-bottom: 20px;
     
 }

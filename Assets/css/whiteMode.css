@@ -1,0 +1,226 @@
+:root{
+    --mainColor: #17B7CB;
+    --blackColor:#111111;
+    --whiteColor:#fff;
+    --bgrayColor:#27292c;
+    --background: linear-gradient(to left, #f7ba2b 0%, #ea5358 100%);
+    --violet: rgb(161, 132, 240);
+    --pink: #d60087;
+    --turquoise: #2fdabd;
+    
+}
+
+
+body.whiteMode{
+    background-color: white;
+    color: black;
+}
+
+
+
+.whiteMode nav{
+
+    background-color: white;
+|   box-shadow: none;
+-webkit-box-shadow: 14px 15px 14px -10px rgba(0,0,0,0.0);
+-moz-box-shadow: 14px 15px 14px -10px rgba(0,0,0,0.0);
+}
+
+
+.whiteMode .list__navbar a{
+    color: var(--blackColor);
+
+}
+
+.whiteMode .list__navbar  a:hover{
+    color: var(--mainColor);
+}
+
+.whiteMode .container__main_items{
+    background-image: linear-gradient(to right, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff);
+    
+}
+
+.whiteMode .first-info-part{
+    color: black;
+
+}
+
+ .whiteMode .second-info-part{
+    color: black;
+
+}
+
+
+.whiteMode .a-information-item{
+    background-color: white;
+    border: 1px solid black;
+}
+
+ 
+.whiteMode  .a-information-item:hover{
+    background-color: var(--blackColor);
+
+}
+
+.whiteMode .items-skills{
+    color: rgba(0, 0, 0, 0.719);
+
+   
+}
+
+.whiteMode .items-skills:hover{
+    color: #17B7CB;
+    filter: drop-shadow(0px 0px 8px rgba(0,182,206,0.51));
+    transition: .3s;
+    
+}
+
+.whiteMode .about--container{
+    background-color: rgb(255, 255, 255);
+
+}
+
+.whiteMode .container-about h1{
+    color: var(--blackColor);
+    filter: drop-shadow(0px 0px 8px rgba(0,182,206,0.51));
+}
+
+.whiteMode .container-about a{
+    background-color: white;
+    color: var(--mainColor);
+}
+.whiteMode .container-about a:hover{
+    background-color: black;
+    transition: .2s;
+}
+
+.whiteMode .container-about p{
+    color: black;
+}
+
+.whiteMode .container-img-about{
+    color: black;
+}
+
+.whiteMode .container-github-info{
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.whiteMode .item-estudio  h3{
+    color: black;
+    filter: drop-shadow(0px 0px 8px rgba(0,182,206,0.51));
+}
+
+
+.whiteMode .title-projects{
+    color: var(--blackColor);
+    filter: drop-shadow(0px 0px 8px rgba(0,182,206,0.51));
+}
+
+
+.whiteMode .container-projects-main{
+
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+.whiteMode #project-link{
+
+    background-color: #000;
+
+}
+
+.whiteMode #project-link:hover{
+    background-color: var(--mainColor);
+    color: white;
+
+}
+
+
+
+.whiteMode .container-contact{
+
+    background-color: rgb(255, 255, 255);
+}
+.whiteMode .container-contact h1{
+    
+   color: var(--blackColor);
+    filter: drop-shadow(0px 0px 8px rgba(0,182,206,0.51));
+}
+
+
+.whiteMode .container-items-contact h2{
+
+    color: var(--blackColor);
+    
+}
+
+.whiteMode .container-items-contact p{
+  
+    color: var(--blackColor);
+   
+}
+
+
+.whiteMode .cnt-inputs input{
+
+    color: black;
+
+    
+}
+
+.whiteMode form textarea{
+    color: black ;
+
+}
+
+.whiteMode footer{
+
+    color: black;
+}
+
+.whiteMode footer p{
+    color: black;
+}
+
+.whiteMode .container-items-links a{
+    color: black;
+
+}
+
+.whiteMode .container-idioma{
+    color: black;
+}
+
+.whiteMode .about-projects-text p{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

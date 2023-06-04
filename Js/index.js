@@ -84,6 +84,58 @@ function update (){
     requestAnimationFrame(update)
 }
 
+const $checkbox = document.getElementById("checkbox")
+const $body = document.querySelector("body")
+
+
+    $checkbox.addEventListener("change", () => {
+        $body.classList.toggle("whiteMode")
+        store($body.classList.contains("whiteMode"))
+})
+
+
+    function load(){
+        const whiteMode = localStorage.getItem("whiteMode")
+
+        if(!whiteMode){
+            store("false")
+        }else if (whiteMode =="true"){
+            $body.classList.add("whiteMode")
+        }
+    }
+
+    function store(value){
+        localStorage.setItem("whiteMode",value)
+    }
+
+
+
+// const $bMode = document.getElementById("bMode")
+// const $body = document.querySelector("body")
+
+
+//     $bMode.addEventListener("click",e =>{
+//         $body.classList.toggle("whiteMode")
+//         store($body.classList.contains("whiteMode"))
+//     })
+
+
+//     function load(){
+//         const whiteMode = localStorage.getItem("whiteMode")
+
+//         if(!whiteMode){
+//             store("false")
+//         }else if (whiteMode =="true"){
+//             $body.classList.add("whiteMode")
+//         }
+//     }
+
+//     function store(value){
+//         localStorage.setItem("whiteMode",value)
+//     }
+
+
+
 
 
 
