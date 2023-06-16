@@ -1,3 +1,14 @@
+:root{
+    --mainColor: #17B7CB;
+    --blackColor:#111111;
+    --whiteColor:#fff;
+    --bgrayColor:#27292c;
+    --background: linear-gradient(to left, #f7ba2b 0%, #ea5358 100%);
+    --violet: rgb(161, 132, 240);
+    --pink: #d60087;
+    --turquoise: #2fdabd;
+    
+}
 @media screen and (max-width: 1160px){
     #mouse-scroll{
         display: none;
@@ -88,39 +99,7 @@
     
     /* Estudios */
     
-    .container-estudios{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        row-gap: 40px;
-        
-    }
     
-    .item-estudio{
-        text-align: center;
-        width: 50%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        
-    
-    }
-    
-    .item-estudio  h3{
-        color: var(--whiteColor);
-        filter: drop-shadow(0px 0px 8px rgba(0,182,206,0.51));
-        text-transform: uppercase;
-        text-align: center;
-    }
-    .item-estudio  h4{
-        color: var(--mainColor);
-        text-align: left;
-        text-transform: uppercase;
-    }
-    .item-estudio p{
-        color: white;
-    
-    }
         
 
 }
@@ -231,40 +210,66 @@
     
     /* Estudios */
     
-    .container-estudios{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        row-gap: 40px;
-        
-    }
-    
-    .item-estudio{
-        text-align: center;
-        width: 50%;
+   
+    .timeline{
         display: flex;
         flex-direction: column;
         align-items: center;
+        max-width: 100%;
+        margin: 0em auto;
+    }
+    
+    .item-estudio{
+        position: relative;
+        padding: 10px 0;
+        width: 50%;
         
+    }
+    
+    .item-estudio div{
+        border: 1px solid white;
+        border-top: 4px solid var(--mainColor);
+        border-radius: 10px;
+        padding: 1.5em;
+       
+    }
+    .item-estudio:nth-child(odd){
+        border-left: none;
+        padding-left: 2em;
+        transform: translateX(10em);
+    }
+    
+    .item-estudio div:nth-child(odd):hover{
+        color: var(--bgrayColor);
+        background-color: rgb(255, 255, 255);
+        cursor: pointer;
+    }
+    
+    .item-estudio:nth-child(even){
+        border-right: none;
+        padding-right: 2em;
+        transform: translateX(-10em);
     
     }
     
-    .item-estudio  h3{
-        color: var(--whiteColor);
-        filter: drop-shadow(0px 0px 8px rgba(0,182,206,0.51));
+    
+    .item-estudio div h3{
+        color: var(--mainColor);
+        font-weight: bold;
+        margin-bottom: 10px;
         text-transform: uppercase;
+        font-size: 1.6rem;
         text-align: center;
     }
-    .item-estudio  h4{
-        color: var(--mainColor);
-        text-align: left;
-        text-transform: uppercase;
-    }
-    .item-estudio p{
-        color: white;
     
-    }
+    .item-estudio div h4{
+        font-weight: bold;
+        margin-bottom: 10px;
+        font-size: 1.4rem;
+        text-align: center;
         
+    }
+    
 
 
 
@@ -435,42 +440,66 @@
     
     
     /* Estudios */
-    
-    .container-estudios{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        row-gap: 40px;
-        
-    }
-    
-    .item-estudio{
-        text-align: center;
-        width: 80%;
+    .timeline{
         display: flex;
         flex-direction: column;
         align-items: center;
+        max-width: 100%;
+        margin: 0em auto;
+    }
+    
+    .item-estudio{
+        position: relative;
+        padding: 10px 0;
+        width: 80%;
         
+    }
+    
+    .item-estudio div{
+        border: 1px solid white;
+        border-top: 4px solid var(--mainColor);
+        border-radius: 10px;
+        padding: 1.5em;
+       
+    }
+    .item-estudio:nth-child(odd){
+        border-left: none;
+        padding-left: 0em;
+        transform: translateX(0em);
+    }
+    
+    .item-estudio div:nth-child(odd):hover{
+        color: var(--bgrayColor);
+        background-color: rgb(255, 255, 255);
+        cursor: pointer;
+    }
+    
+    .item-estudio:nth-child(even){
+        border-right: none;
+        padding-right: 0em;
+        transform: translateX(0em);
     
     }
     
-    .item-estudio  h3{
-        color: var(--whiteColor);
-        filter: drop-shadow(0px 0px 8px rgba(0,182,206,0.51));
+    
+    .item-estudio div h3{
+        color: var(--mainColor);
+        font-weight: bold;
+        margin-bottom: 10px;
         text-transform: uppercase;
+        font-size: 1.6rem;
         text-align: center;
     }
-    .item-estudio  h4{
-        color: var(--mainColor);
-        text-align: left;
-        text-transform: uppercase;
-    }
-    .item-estudio p{
-        color: white;
     
-    }
+    .item-estudio div h4{
+        font-weight: bold;
+        margin-bottom: 10px;
+        font-size: 1.4rem;
+        text-align: center;
         
-
+    }
+    
+  
     .cnt-inputs{
         width: 90%;
         display: flex;
@@ -672,41 +701,66 @@
 
 /* Estudios */
 
-.container-estudios{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    row-gap: 20px;
-    
-}
 
-.item-estudio{
-    text-align: center;
-    width: 100%;
+.timeline{
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 100%;
+    margin: 0em auto;
+}
+
+.item-estudio{
+    position: relative;
+    padding: 10px 0;
+    width: 100%;
     
+}
+
+.item-estudio div{
+    border: 1px solid white;
+    border-top: 4px solid var(--mainColor);
+    border-radius: 10px;
+    padding: 1.5em;
+   
+}
+.item-estudio:nth-child(odd){
+    border-left: none;
+    padding-left: 0em;
+    transform: translateX(0em);
+}
+
+.item-estudio div:nth-child(odd):hover{
+    color: var(--bgrayColor);
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.item-estudio:nth-child(even){
+    border-right: none;
+    padding-right: 0em;
+    transform: translateX(0em);
 
 }
 
-.item-estudio  h3{
-    font-size: 1.1rem;
-    color: var(--whiteColor);
-    filter: drop-shadow(0px 0px 8px rgba(0,182,206,0.51));
+
+.item-estudio div h3{
+    color: var(--mainColor);
+    font-weight: bold;
+    margin-bottom: 10px;
     text-transform: uppercase;
+    font-size: 1.6rem;
     text-align: center;
 }
-.item-estudio  h4{
-    font-size: 1rem;
-    color: var(--mainColor);
-    text-align: left;
-    text-transform: uppercase;
-}
-.item-estudio p{
-    color: white;
 
+.item-estudio div h4{
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+    text-align: center;
+    
 }
+
     
 /* section de contacto  */
 
@@ -957,41 +1011,67 @@ form button:hover{
 
 /* Estudios */
 
-.container-estudios{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    row-gap: 20px;
-    
-}
 
-.item-estudio{
-    text-align: center;
-    width: 100%;
+.timeline{
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 100%;
+    margin: 0em auto;
+}
+
+.item-estudio{
+    position: relative;
+    padding: 10px 0;
+    width: 100%;
     
+}
+
+.item-estudio div{
+    border: 1px solid white;
+    border-top: 4px solid var(--mainColor);
+    border-radius: 10px;
+    padding: 1.5em;
+   
+}
+.item-estudio:nth-child(odd){
+    border-left: none;
+    padding-left: 0em;
+    transform: translateX(0em);
+}
+
+.item-estudio div:nth-child(odd):hover{
+    color: var(--bgrayColor);
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.item-estudio:nth-child(even){
+    border-right: none;
+    padding-right: 0em;
+    transform: translateX(0em);
 
 }
 
-.item-estudio  h3{
-    font-size: 1.1rem;
-    color: var(--whiteColor);
-    filter: drop-shadow(0px 0px 8px rgba(0,182,206,0.51));
+
+.item-estudio div h3{
+    color: var(--mainColor);
+    font-weight: bold;
+    margin-bottom: 10px;
     text-transform: uppercase;
+    font-size: 1.6rem;
     text-align: center;
 }
-.item-estudio  h4{
-    font-size: 1rem;
-    color: var(--mainColor);
-    text-align: left;
-    text-transform: uppercase;
-}
-.item-estudio p{
-    color: white;
 
+.item-estudio div h4{
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+    text-align: center;
+    
 }
+
+
     
 /* section de contacto  */
 
