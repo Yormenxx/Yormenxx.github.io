@@ -559,3 +559,70 @@ css
 .etiquetas-tect a:hover{
     color: #ea5358;
 }
+
+.item-project{
+    width: 50%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    padding: 20px 10px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    color: white;
+    -webkit-box-shadow: 1px 10px 25px -7px rgba(0,0,0,0.97);
+-moz-box-shadow: 1px 10px 25px -7px rgba(0,0,0,0.97);
+box-shadow: 1px 10px 25px -7px rgba(0,0,0,0.97);
+}
+
+.item-project:hover{
+    background-color: var(--bgrayColor);
+    border: 1px solid white;
+    transform: translate(5px, -5px);
+    transition: .2s linear;
+    
+    
+}
+
+
+.item-img img {
+    overflow: hidden;
+    width: 150px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.container-tech img{
+    width: 25px;
+}
+
+.item-body{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.item-body h3{
+    font-size: 1.4rem;
+}
+
+.item-body p{
+    font-size: 1.2rem;
+}
+
+.container-live {
+   display: flex;
+   column-gap: 10px;
+
+}
+
+.container-live a{
+    padding: 6px 30px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid var(--mainColor);
+    border-radius:10px ;
+
+}

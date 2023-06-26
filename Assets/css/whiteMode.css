@@ -86,7 +86,17 @@ body.whiteMode{
     transition: .3s;
     
 }
+.whiteMode .container-img-about{
+    background-color:white;
+    color: black;
+}
 
+.whiteMode .others-item{
+    background-color: #fff;
+}
+.whiteMode .others-item h3{
+    color: var(--bgrayColor);
+}
 .whiteMode .about--container{
     background-color: rgb(255, 255, 255);
 
@@ -110,9 +120,6 @@ body.whiteMode{
     color: black;
 }
 
-.whiteMode .container-img-about{
-    color: black;
-}
 
 .whiteMode .container-github-info{
     background-color: white;
@@ -218,14 +225,12 @@ body.whiteMode{
     color: black;
 }
 
-.whiteMode .container-items-links a{
+.whiteMode .container-fast-items a{ 
     color: black;
+    border: 1px solid var(--blackColor);
 
 }
 
-.whiteMode .container-idioma{
-    color: black;
-}
 
 .whiteMode .about-projects-text p{
     color: black;
