@@ -10,6 +10,27 @@ window.addEventListener("load",()=>{
 })
 
 
+// const cursorDot = document.getElementById("cursor-dot")
+// const cursorOutline = document.getElementById("cursor-outline")
+
+
+// window.addEventListener("mousemove", function(e){
+
+//     const posX = e.clientX
+//     const posY = e.clientY
+
+//     cursorDot.style.left= `${posX}px`
+//     cursorDot.style.top= `${posY}px`
+
+//     cursorOutline.style.left=`${posX}px`
+//     cursorOutline.style.top=`${posY}px`
+
+
+//     cursorOutline.animate({
+//         left: `${posX}px`,
+//         top: `${posY}px`
+//     },{duration: 500, fill:"forwards"})
+// })
 
 
 // NAVBAR CHANGE COLOR
@@ -112,78 +133,150 @@ const $body = document.querySelector("body")
 
 
 
+// ScrollReveal().reveal('.others-item', {
+//     delay: 105,
+//     duration: 400,
+//     reset: true
+// });  
+
+
+// ScrollReveal().reveal('.container__information', {
+//     delay: 105,
+//     duration: 400,
+//     reset: true
+// });  
+
+
+// ScrollReveal().reveal('.img-main', {
+//     delay: 105,
+//     duration: 400,
+//     reset: true
+// });  
+
+// ScrollReveal().reveal('.items-container,.container-img-about,.container-about, .container-fast-items', {
+//     delay: 105,
+//     duration: 400,
+//     reset: true
+// });  
 
 
 
+
+// ScrollReveal().reveal('.cnt-inputs,.button-contact, footer ', {
+//     delay: 205,
+//     duration: 500,
+//     reset: true
+// }); 
+
+console.log('%c--------------------', 'color: yellow; font-size: 40px ; text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue');
+
+console.log('%cHELLO WORLD CODERS', 'color: yellow; font-size: 50px');
+
+console.log('%c--------------------', 'color: yellow; font-size: 40px ; text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue');
+console.log('%cWelcome to my portfolio', 'color: yellow; font-size: 20px');
+
+console.log('%cGithub link : https://github.com/Yormenxx ', 'color: yellow; font-size: 15px' );
+
+
+
+
+
+/*
+
+const titlePlayer = document.getElementById("playerTitle")
+const prevPlayer = document.getElementById("prev")
+const playPlayer = document.getElementById("play")
+const nextPlayer = document.getElementById("next")
+
+
+
+let isPlayingSong = false;
+
+const audio = document.getElementById("audio")
+// let trackIndex = 0;
+
+const songList = [
+    {
+        path:"Crown_The_Empire_whatIam.mp3",
+        songName:"What I am"
+    },
+
+    {
+        path: "Ghostemane_Gatteka.mp3",
+        songName:"Gatteka"
+    },
+
+
+    {
+        path: "Megadeth_Dystopia.mp3",
+        songName:"Dystopia"
+    },
+
+
+    {
+        path: "Megadeth_Conquer_Or_Die.mp3",
+        songName:"Conquer or Die"
+    }
+]
+
+// function loadTrack (){{
+//     currentAudio.src = songList[trackIndex].path
+//     currentAudio.load()
+//     titlePlayer.textContent= songList.songName
+// }}
+
+
+
+
+function playSong(){
+
+    audio.play();
+    isPlayingSong = true;
+
+}
+
+function pauseSong(){
+
+    audio.pause();
+    isPlayingSong = false;
+
+}
+
+let i = 0;
+
+
+playPlayer.addEventListener("click",()=>(isPlayingSong ? pauseSong(): playSong()))
+
+function songLoad (songList){
+    titlePlayer.textContent = songList.songName
+    audio.src = songList[i].path
+}
+
+
+
+songLoad([i])
+
+*/
+
+
+const $ocultarItem = document.getElementById("ocultar-item")
+const $btnMore = document.getElementById("btn__more")
+
+$btnMore.addEventListener("click", ()=>{
+
+    $ocultarItem.classList.toggle("Mostrar-Item")
+
+    if($ocultarItem.classList.contains("Mostrar-Item")){
+
+        $btnMore.innerHTML="Hide projects"
     
-// const $bMode = document.getElementById("bMode")
-// const $body = document.querySelector("body")
-
-
-//     $bMode.addEventListener("click",e =>{
-//         $body.classList.toggle("whiteMode")
-//         store($body.classList.contains("whiteMode"))
-//     })
-
-
-//     function load(){
-//         const whiteMode = localStorage.getItem("whiteMode")
-
-//         if(!whiteMode){
-//             store("false")
-//         }else if (whiteMode =="true"){
-//             $body.classList.add("whiteMode")
-//         }
-//     }
-
-//     function store(value){
-//         localStorage.setItem("whiteMode",value)
-//     }
+    }else{
+        $btnMore.innerHTML="Show projects"
+    }
+    
+})
 
 
 
 
 
-
-
-
-// const $itemList = document.querySelectorAll(".list-category");
-// const $itemProject = document.querySelectorAll(".item-project");
-
-
-
-// for(let i = 0 ; i < $itemList.length; i++){
-
-//     $itemList[i].addEventListener("click",function(){
-
-//         for(let j = 0; j < $itemList.length; j++){
-
-//             $itemList[j].classList.remove(".listActivado")
-
-//         }
-//         this.classList.add(".listActivado")
-
-
-//         let dataFilter = this.getAttribute("data-filter")
-
-
-//         for(let k = 0; k < $itemProject.length; k++){
-
-//             $itemProject[k].classList.remove(".listActivado")
-
-//             $itemProject[k].classList.add(".ocultarProject")
-
-//             if($itemProject[k].getAttribute("data-category")== dataFilter || dataFilter == "TODOS"){
-
-//                 $itemProject[k].classList.remove(".ocultarProject")
-
-//                 $itemProject[k].classList.add(".listActivado")
-
-//             }
-
-//         }
-
-
-
-//     })
-// }

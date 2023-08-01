@@ -287,12 +287,9 @@
         border-radius: 10px;
         background-color: var(--blackColor);
         transition: 2s;
-        cursor: pointer;
+        
     }
     
-    .list__navbar  a:hover{
-        cursor: pointer;
-    }
     
 
     .logo__navbar{
@@ -307,16 +304,16 @@
     .whiteMode .container_ham{
         display: block;
         color: black;
-        cursor: pointer;
+        
     }
     .container_ham{
         display: block;
         color: white;
-        cursor: pointer;
+        
     }
 
     .toggle-activate{
-        cursor: pointer;
+        
         display: flex;
         right: 0;
        
@@ -555,8 +552,14 @@ footer{
     .container-text-about h1,
     .title-contact,
     .container-contact h1{
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
+   
+   
+    .title-projects{
+        font-size: 2rem;
+    } 
+
 
 
     nav{
@@ -576,12 +579,9 @@ footer{
         border-radius: 10px;
         background-color: var(--blackColor);
         transition: 2s;
-        cursor: pointer;
+        
     }
-    
-    .list__navbar  a:hover{
-        cursor: pointer;
-    }
+   
 
     .whiteMode  .list__navbar{
         background-color: white;
@@ -592,7 +592,7 @@ footer{
     .whiteMode .container_ham{
         display: block;
         color: black;
-        cursor: pointer;
+       
     }
     
 
@@ -603,11 +603,11 @@ footer{
     .container_ham{
         display: block;
         color: white;
-        cursor: pointer;
+        
     }
 
     .toggle-activate{
-        cursor: pointer;
+        
         display: flex;
         right: 0;
        
@@ -632,7 +632,7 @@ footer{
     #mouse-scroll{
         display: none;
     }
-
+  
 
     /*MAIN */
 
@@ -701,7 +701,7 @@ footer{
     padding: 10px;
 }
 .container-about h1{
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: center;
 }
 
@@ -856,9 +856,13 @@ footer{
     .container-text-about h1,
     .title-contact,
     .container-contact h1{
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
+   
 
+    .title-projects{
+        font-size: 2rem;
+    } 
 
     nav{
         width: 99%;
@@ -877,7 +881,7 @@ footer{
         border-radius: 10px;
         background-color: var(--blackColor);
         transition: 2s;
-        cursor: pointer;
+    
     }
 
     .whiteMode  .list__navbar{
@@ -889,12 +893,10 @@ footer{
     .whiteMode .container_ham{
         display: block;
         color: black;
-        cursor: pointer;
+     
     }
     
-    .list__navbar  a:hover{
-        cursor: pointer;
-    }
+    
     
 
     .logo__navbar{
@@ -905,12 +907,12 @@ footer{
        
         display: block;
         color: white;
-        cursor: pointer;
+        
     }
 
 
     .toggle-activate{
-        cursor: pointer;
+        
         display: flex;
         
        
@@ -989,7 +991,7 @@ footer{
     padding: 10px;
 }
 .container-about h1{
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: center;
 }
 
@@ -1077,6 +1079,49 @@ footer{
 }
 
 
+.title-projects{
+    font-size: 1.9rem;
+}
+.text-projects{
+    color: white;
+    margin-bottom: 50px;
+    padding: 20px 60px;
+}
+
+/* .item-project{
+    position: relative;
+    width: 50%;
+    height: 250px;
+
+    
+} */
+
+
+.item-body h3{
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    color: var(--mainColor);
+}
+
+.item-body p{
+    font-size: 1rem;
+    color: #00ecb4;
+}
+
+
+.container-tech img{
+    width: 25px;
+}
+.container-live a{
+    padding: 6px 20px;
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border: 1px solid var(--mainColor);
+    border-radius:10px ;
+    font-weight: bold;
+
+} */
 
 form{
     width: 90%;
