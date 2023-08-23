@@ -235,15 +235,24 @@ body.whiteMode{
 .whiteMode .about-projects-text p{
     color: black;
 }
+.whiteMode .services-container{
+ 
+    color: black;
+    background-color: white;
+}
 
 
+.whiteMode .container-contact h2{
 
+    color: var(--blackColor);
 
+ 
+}
 
-
-
-
-
+/* .whiteMode.source-code a, .hosting-code a ,.navi-container .list__navbar-navi a,.languages p,.tech-navi p{
+    color: rgb(109, 109, 109);
+} 
+ */
 
 
 
