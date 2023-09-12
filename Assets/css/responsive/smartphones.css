@@ -200,6 +200,12 @@
         display: none;
     }
 
+    .teach-item{
+        width: 100%;
+        padding: 10px 1px ;
+    
+    }
+
     
     /* about container */
 
@@ -271,14 +277,14 @@
 
     
     nav{
-        width: 99%;
+        width: 90%;
         border-radius: 10px;
 
     }
     
     .list__navbar{
         width: 100%;
-        height: 200px;
+        height: 60vh;
         position: absolute;
         top: 80px;
         display: none;
@@ -307,6 +313,7 @@
         
     }
     .container_ham{
+        cursor: pointer;
         display: block;
         color: white;
         
@@ -365,7 +372,11 @@
         
     }
 
-
+    .teach-item{
+        width: 100%;
+        padding: 10px 1px ;
+    
+    }
 
     /* skills main part*/
 
@@ -563,14 +574,14 @@ footer{
 
 
     nav{
-        width: 99%;
+        width: 90%;
         border-radius: 10px;
 
     }
     
     .list__navbar{
         width: 100%;
-        height: 200px;
+        height: 50vh;
         position: absolute;
         top: 80px;
         display: none;
@@ -601,6 +612,7 @@ footer{
     }
     
     .container_ham{
+        cursor: pointer;
         display: block;
         color: white;
         
@@ -674,6 +686,18 @@ footer{
         width: 200px;
         
     }
+
+    /*services*/
+
+.services-container{
+    padding: 10px;
+
+}
+.teach-item{
+    width: 100%;
+    padding: 10px 1px ;
+
+}
 
 
     /* skills main part*/
@@ -865,22 +889,23 @@ footer{
     } 
 
     nav{
-        width: 99%;
+        width: 90%;
         border-radius: 10px;
 
     }
     
     .list__navbar{
         width: 100%;
-        height: 200px;
+        height: 50vh;
         position: absolute;
+        
         top: 80px;
         display: none;
         flex-direction: column;
         list-style: none;
         border-radius: 10px;
         background-color: var(--blackColor);
-        transition: 2s;
+        transition:all .2s;
     
     }
 
@@ -904,9 +929,10 @@ footer{
     }
     
     .container_ham{
-       
+       cursor: pointer;
         display: block;
         color: white;
+        margin: 0 auto;
         
     }
 
@@ -949,6 +975,7 @@ footer{
     .container__main_items{
         display: flex;
         flex-direction: column;
+        padding: 5px;
     }
 
     .container__information{
@@ -981,9 +1008,17 @@ footer{
         
     }
 
+/*services*/
 
+.services-container{
+    padding: 10px;
 
+}
+.teach-item{
+    width: 100%;
+    padding: 10px 1px ;
 
+}
     /* about container */
 
     
