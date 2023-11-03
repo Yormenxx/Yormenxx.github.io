@@ -35,36 +35,36 @@ window.addEventListener("load",()=>{
 
 // NAVBAR CHANGE COLOR
 
-function changeBgColorNavBar(){
+// function changeBgColorNavBar(){
 
-    var $navbar = document.getElementById("navbar");
-
-
-    var scrollValue = window.scrollY;
-
-    if(scrollValue <90){
-        $navbar.classList.remove("bgNavabarChange")
+//     var $navbar = document.getElementById("navbar");
 
 
-    }else{
-        $navbar.classList.add("bgNavabarChange")
+//     var scrollValue = window.scrollY;
+
+//     if(scrollValue <90){
+//         $navbar.classList.remove("bgNavabarChange")
+
+
+//     }else{
+//         $navbar.classList.add("bgNavabarChange")
  
-    }
-};
+//     }
+// };
 
-window.addEventListener("scroll",changeBgColorNavBar);
+// window.addEventListener("scroll",changeBgColorNavBar);
 
 //NAVBAR TOGGLE
 
-const $btnResponsive = document.getElementById("btn_responsive"),
+// const $btnResponsive = document.getElementById("btn_responsive"),
 
-$listNavBar = document.getElementById("list__navbar");
+// $listNavBar = document.getElementById("list__navbar");
 
-$btnResponsive.addEventListener("click",()=>{
+// $btnResponsive.addEventListener("click",()=>{
 
-$listNavBar.classList.toggle("toggle-activate");
+// $listNavBar.classList.toggle("toggle-activate");
 
-})
+// })
 
 
 //CHEVRON UP
@@ -105,29 +105,29 @@ function update (){
     requestAnimationFrame(update)
 }
 
-const $checkbox = document.getElementById("checkbox")
-const $body = document.querySelector("body")
+// const $checkbox = document.getElementById("checkbox")
+// const $body = document.querySelector("body")
 
 
-    $checkbox.addEventListener("change", () => {
-        $body.classList.toggle("whiteMode")
-        store($body.classList.contains("whiteMode"))
-})
+//     $checkbox.addEventListener("change", () => {
+//         $body.classList.toggle("whiteMode")
+//         store($body.classList.contains("whiteMode"))
+// })
 
 
-    function load(){
-        const whiteMode = localStorage.getItem("whiteMode")
+//     function load(){
+//         const whiteMode = localStorage.getItem("whiteMode")
 
-        if(!whiteMode){
-            store("false")
-        }else if (whiteMode =="true"){
-            $body.classList.add("whiteMode")
-        }
-    }
+//         if(!whiteMode){
+//             store("false")
+//         }else if (whiteMode =="true"){
+//             $body.classList.add("whiteMode")
+//         }
+//     }
 
-    function store(value){
-        localStorage.setItem("whiteMode",value)
-    }
+//     function store(value){
+//         localStorage.setItem("whiteMode",value)
+//     }
 
 
 
@@ -264,14 +264,12 @@ const $btnMore = document.getElementById("btn__more")
 
 $btnMore.addEventListener("click", ()=>{
 
-    $ocultarItem.classList.toggle("Mostrar-Item")
+    $ocultarItem.classList.add("Mostrar-Item")
 
     if($ocultarItem.classList.contains("Mostrar-Item")){
 
-        $btnMore.innerHTML="Hide projects"
+        $btnMore.style="display:none"
     
-    }else{
-        $btnMore.innerHTML="Show projects"
     }
     
 })

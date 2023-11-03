@@ -130,8 +130,12 @@
 
 }
 
-@media screen and (max-width: 980px){
+@media screen and (max-width: 992px){
   
+ 
+    .header{
+        padding: .9rem 5%;
+    }
 
     #mouse-scroll{
         display: none;
@@ -275,8 +279,54 @@
 
 @media screen and (max-width: 768px){
 
+    .icons{
+        display: inline-flex;
+    }
+
+    #check:checked~.icons #menu-icon{
+        display: none;
+    }
+
+    .icons #close-icon{
+        display: none;
+    }
+
+    #check:checked~.icons #close-icon{
+        display: block;
+    }
+
+    .navbar{
+        position: absolute;
+        top:100%;
+        left: 0;
+        width: 100%;
+        height: 0;
+        background: rgba(0, 0, 0, .1);
+        background: rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(10px);
+        overflow: hidden;
+        transition: .3s;
+    }
+
+    #check:checked~.navbar{
+
+        height: 17.7rem;
+    }
+
+
+    .navbar a{
+        display: block;
+        font-size: 1rem;
+        margin: 1.3rem 0;
+        text-align: center;
+       
+    }
+
+    .navbar  a:hover{
+        color: white;
+    }
     
-    nav{
+    /* nav{
         width: 90%;
         border-radius: 10px;
 
@@ -296,7 +346,7 @@
         
     }
     
-    
+     */
 
     .logo__navbar{
         width: 50px;
@@ -305,6 +355,13 @@
         background-color: white;
         
     }
+    .about-container h1{
+        padding: 40px;
+    }
+    .subtle-title-about{
+        
+        text-align: center;
+    }
 
     
     .whiteMode .container_ham{
@@ -312,7 +369,7 @@
         color: black;
         
     }
-    .container_ham{
+    /* .container_ham{
         cursor: pointer;
         display: block;
         color: white;
@@ -324,7 +381,7 @@
         display: flex;
         right: 0;
        
-    }
+    } */
 
 
 
@@ -337,7 +394,7 @@
         width: 95%;
         border-radius: 20px;
         padding: 4px;
-        margin: 30px auto  10px auto;
+        margin: 90px auto  10px auto;
         border-radius: 10px;
         
     }
@@ -494,6 +551,13 @@
     row-gap: 30px;
 }
 
+.tech-others span{
+    width: 15px;
+    padding: 1.4px;
+    font-size: .5rem;
+}
+
+
 /* section de contacto  */
 .container-contact{
     width: 100%;
@@ -564,16 +628,22 @@ footer{
     .title-contact,
     .container-contact h1{
         font-size: 2rem;
+     
     }
    
-   
+   .container-about h1{
+    padding: 20px;
+   }
     .title-projects{
         font-size: 2rem;
     } 
 
+    .subtle-title-about{
+        
+        text-align: center;
+    }
 
-
-    nav{
+    /* nav{
         width: 90%;
         border-radius: 10px;
 
@@ -592,7 +662,7 @@ footer{
         transition: 2s;
         
     }
-   
+    */
 
     .whiteMode  .list__navbar{
         background-color: white;
@@ -607,7 +677,7 @@ footer{
     }
     
 
-    .logo__navbar{
+    /* .logo__navbar{
         width: 50px;
     }
     
@@ -616,7 +686,7 @@ footer{
         display: block;
         color: white;
         
-    }
+    } */
 
     .toggle-activate{
         
@@ -652,7 +722,7 @@ footer{
         width: 95%;
         border-radius: 20px;
         padding: 4px;
-        margin: 30px auto  10px auto;
+        margin: 80px auto  10px auto;
         border-radius: 10px;
         
     }
@@ -804,7 +874,11 @@ footer{
 .tech-others img{
     width: 11px;
 }
-
+.tech-others span{
+    width: 10px;
+    padding: 1.4px;
+    font-size: .5rem;
+}
 
 .container-items-contact{
     row-gap: 30px;
@@ -881,14 +955,22 @@ footer{
     .title-contact,
     .container-contact h1{
         font-size: 2rem;
+        
     }
-   
+
+    .container-about h1{
+        padding: 10px;
+    }
+    .subtle-title-about{
+        
+        text-align: center;
+    }
 
     .title-projects{
         font-size: 2rem;
     } 
 
-    nav{
+    /* nav{
         width: 90%;
         border-radius: 10px;
 
@@ -907,7 +989,7 @@ footer{
         background-color: var(--blackColor);
         transition:all .2s;
     
-    }
+    } */
 
     .whiteMode  .list__navbar{
         background-color: white;
@@ -923,7 +1005,7 @@ footer{
     
     
     
-
+/* 
     .logo__navbar{
         width: 50px;
     }
@@ -934,7 +1016,7 @@ footer{
         color: white;
         margin: 0 auto;
         
-    }
+    } */
 
 
     .toggle-activate{
@@ -967,7 +1049,7 @@ footer{
         width: 95%;
         border-radius: 20px;
         padding: 4px;
-        margin: 30px auto  10px auto;
+        margin: 110px auto  10px auto;
         border-radius: 10px;
         
     }
@@ -1078,8 +1160,8 @@ footer{
     row-gap: 30px;
 }
 .others-item{
-    width: 23%;
-    height: 135px;
+    justify-content: space-around;
+    height: 170px;
     row-gap: 5px;
     padding: 0px;
     text-decoration: none;
@@ -1104,8 +1186,10 @@ footer{
     color: rgb(182, 180, 180);
     font-size: .6rem;
 }
-.tech-others img{
+.tech-others span{
     width: 10px;
+    padding: 1.4px;
+    font-size: .5rem;
 }
 
 
