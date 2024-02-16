@@ -1,0 +1,213 @@
+@media screen and (max-width: 992px){
+
+
+    
+}
+
+@media screen and (max-width: 768px){
+
+    nav{
+    
+        width: 99%;
+    
+    }
+    .text-blink{
+        text-align: center;
+    }
+
+    .container-main-items{
+      
+        justify-content: center;  
+    
+    }
+
+    .container-text-main{
+    
+        width: 90%;
+        text-align: center;
+    }
+
+    .container--items-social{
+        justify-content: center;
+
+       
+    }
+
+    .cnt-inputs input::placeholder{
+       
+        font-size: .9rem;
+        text-align: left;
+        
+    }
+
+
+
+}
+
+
+
+@media screen  and (max-width: 480px){
+
+
+    nav{
+    
+        width: 90%;
+    
+    }
+
+    .text-blink{
+        text-align: center;
+    }
+
+    .container-main-items{
+      
+        justify-content: center;  
+    
+    }
+
+    .container-text-main{
+    
+        width: 90%;
+    }
+
+    .container-text-stack-info{
+        width: 100%;
+    }
+
+    .container-text-information{
+        padding-top: 12px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .buttons-containers{
+        row-gap: 20px;
+    }
+
+    
+    form{
+        width: 100%;
+        padding: 20px 5px;
+        margin-top: 20px;
+    }
+
+    .cnt-inputs input::placeholder{
+       
+        font-size: 1rem;
+        text-align: left;
+        
+    }
+
+    footer{
+        padding: 10px;
+    }
+
+    .container-footer{
+        flex-wrap: wrap;
+        row-gap: 10px;
+        column-gap: 20px;
+        justify-content:center;
+        align-items:flex-start;
+       
+    }
+
+
+}
+
+
+
+
+@media screen  and (max-width: 360px){
+
+    header{
+        padding: 10px 0px;
+    
+    }
+
+    nav{
+    
+        width: 80%;
+        row-gap: 20px;
+        border-radius: 10px;
+        padding: 10px 0px;
+    
+    }
+    .text-blink{
+        text-align: center;
+    }
+
+    .container-main-items{
+
+        justify-content: center;  
+    
+    }
+
+    .container-text-main{
+    
+        width: 90%;
+    }
+
+    #typed{
+    
+        font-size: 1.9rem;
+        text-align: center;
+    }
+
+    .container-text-stack-info{
+        width: 100%;
+    }
+
+    .container-text-information{
+        padding-top: 12px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .buttons-containers{
+        row-gap: 20px;
+        justify-content: center;
+    }
+
+
+    .services-container{
+        padding: 5px;
+        
+    }
+
+
+    .container-projects article{
+        width: 300px;
+        text-align: center;
+        
+    }
+
+
+    .container-items-contact{
+        row-gap: 20px;
+    }
+
+
+    form{
+        width: 100%;
+        padding: 20px 5px;
+    }
+
+    .cnt-inputs input::placeholder{
+       
+        font-size: .6rem;
+        text-align: left;
+        
+    }
+
+    footer{
+        padding: 10px;
+    }
+
+    .container-footer{
+        flex-wrap: wrap;
+        row-gap: 10px;
+        justify-content: space-between;
+        align-items:center;
+       
+    }
+}
