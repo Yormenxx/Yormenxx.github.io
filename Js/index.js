@@ -259,20 +259,20 @@ songLoad([i])
 */
 
 
-const $ocultarItem = document.getElementById("ocultar-item")
-const $btnMore = document.getElementById("btn__more")
+// const $ocultarItem = document.getElementById("ocultar-item")
+// const $btnMore = document.getElementById("btn__more")
 
-$btnMore.addEventListener("click", ()=>{
+// $btnMore.addEventListener("click", ()=>{
 
-    $ocultarItem.classList.add("Mostrar-Item")
+//     $ocultarItem.classList.add("Mostrar-Item")
 
-    if($ocultarItem.classList.contains("Mostrar-Item")){
+//     if($ocultarItem.classList.contains("Mostrar-Item")){
 
-        $btnMore.style="display:none"
+//         $btnMore.style="display:none"
     
-    }
+//     }
     
-})
+// })
 
 
 
