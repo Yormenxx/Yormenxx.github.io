@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/responsive.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Juma || portfolio</title>
 </head>
 <body>
@@ -28,7 +29,7 @@
 
     <span id="Start"></span>
 
-    <header>
+    <header data-aos="fade-up" >
 
 
         <nav>
@@ -81,7 +82,7 @@
 
     </header>
 
-    <main>
+    <main  data-aos="fade-up">
 
         <div class="container-main-items">
 
@@ -156,7 +157,7 @@
 
    
 
-    <section class="about-section">
+    <section class="about-section"  data-aos="fade-up">
 
       
 
@@ -456,7 +457,7 @@
     <span id="services"></span>
 
 
-<section class="services-container">
+<section class="services-container"  data-aos="fade-up">
 
 
 
@@ -508,7 +509,7 @@
 
 <span id="projects"></span>
 
-<section class="projects">
+<section class="projects"  data-aos="fade-up" data-aos-once="true">
 
     <h3>PROJECTS</h3>
 
@@ -673,7 +674,7 @@
 
 <span id="contact"></span>
 
-<section class="contact-services">
+<section class="contact-services"  data-aos="fade-up">
 
     <div class="container-services-items">
 
@@ -753,7 +754,7 @@
 
 </section>
 
-<footer>
+<footer  data-aos="fade-up">
 
     <div class="container-footer">
 
@@ -806,7 +807,7 @@
 </footer>
 
 
-<div class="message">
+<div class="message"  data-aos="fade-up">
 
     <h1 class="title-footer">Execute your knowledge with the mastery of a learner. </h1>
 
@@ -825,6 +826,11 @@
 <script src="./Js/index.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 <script src="./Js/typed.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init(
+    );
+</script>
     
 </body>
 </html>
