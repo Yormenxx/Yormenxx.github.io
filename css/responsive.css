@@ -21,6 +21,15 @@
     
     }
 
+    .buttons-containers{
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+
     .container-text-main{
     
         width: 90%;
@@ -52,12 +61,27 @@
     nav{
     
         width: 90%;
-    
+        padding: 10px 0px;
     }
+    
+ 
 
     .text-blink{
+        padding-top: 10px;
+        font-size: 1.5rem;
         text-align: center;
     }
+
+    #typed{
+    
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    section.row{
+        grid-template-columns: 1fr
+    }
+
 
     .container-main-items{
       
@@ -78,6 +102,16 @@
         padding-top: 12px;
         width: 100%;
         text-align: center;
+    }
+
+    .service{
+        padding:10px 0px;
+    }
+
+
+    
+    .projects-main{
+        padding: 8px;
     }
 
     .buttons-containers{
@@ -120,6 +154,10 @@
 
 @media screen  and (max-width: 360px){
 
+    .chevron-up-container{
+        right: 20px;
+    }
+
     header{
         padding: 10px 0px;
     
@@ -134,11 +172,12 @@
     
     }
     .text-blink{
+        font-size: 1.4rem;
         text-align: center;
     }
 
     .container-main-items{
-
+        padding-top: 10px;
         justify-content: center;  
     
     }
@@ -150,8 +189,12 @@
 
     #typed{
     
-        font-size: 1.9rem;
+        font-size: 1.6rem;
         text-align: center;
+    }
+
+    section.row{
+        grid-template-columns: 1fr
     }
 
     .container-text-stack-info{
@@ -174,14 +217,14 @@
         padding: 5px;
         
     }
-
-
-    .container-projects article{
-        width: 300px;
-        text-align: center;
-        
+    .service{
+        padding:10px 0px;
     }
 
+
+    .projects-main{
+        padding: 8px;
+    }
 
     .container-items-contact{
         row-gap: 20px;
