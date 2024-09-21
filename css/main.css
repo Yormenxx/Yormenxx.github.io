@@ -216,6 +216,7 @@ main{
 .gif-main{
     width: 500px;
     overflow: hidden;
+    filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.596));
 }
 
 .about-section{
@@ -249,6 +250,7 @@ main{
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    -webkit-text-stroke: .5px #000000;
   
 
 }
