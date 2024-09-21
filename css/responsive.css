@@ -11,10 +11,30 @@
         width: 99%;
     
     }
-    .text-blink{
-        text-align: center;
+    .curve{
+        
+        padding: 5px;
     }
 
+    .about-me-container{
+        flex-wrap: wrap;
+    }
+    .stats-container{
+    width: 100%;
+    
+    }
+
+    .eduAndExp{
+        flex-wrap: wrap;
+        padding: 0px;
+      
+    }
+    .about-me{
+        width: 100%;
+
+    }
+
+    
     .container-main-items{
       
         justify-content: center;  
@@ -66,12 +86,30 @@
     
  
 
-    .text-blink{
-        padding-top: 10px;
-        font-size: 1.5rem;
-        text-align: center;
+    .curve{
+        
+        padding: 5px;
     }
 
+    .about-me-container{
+        flex-wrap: wrap;
+    }
+    .stats-container{
+    width: 100%;
+    
+    }
+
+    .eduAndExp{
+        flex-wrap: wrap;
+        padding: 0px;
+      
+    }
+    .about-me{
+        width: 100%;
+
+    }
+
+    
     #typed{
     
         font-size: 1.8rem;
@@ -165,17 +203,37 @@
 
     nav{
     
-        width: 80%;
+        width: 90%;
         row-gap: 20px;
         border-radius: 10px;
         padding: 10px 0px;
     
     }
-    .text-blink{
-        font-size: 1.4rem;
-        text-align: center;
+    .curve{
+        
+        padding: 5px;
     }
 
+    .about-me-container{
+        flex-wrap: wrap;
+    }
+    .stats-container{
+    width: 100%;
+    
+    }
+
+    .eduAndExp{
+        flex-wrap: wrap;
+        padding: 0px;
+      
+    }
+    .about-me{
+        width: 100%;
+
+    }
+
+    
+    
     .container-main-items{
         padding-top: 10px;
         justify-content: center;  
@@ -206,7 +264,7 @@
         width: 100%;
         text-align: center;
     }
-
+  
     .buttons-containers{
         row-gap: 20px;
         justify-content: center;
