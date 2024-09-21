@@ -280,9 +280,6 @@ padding: 7px 20px;
     row-gap: 10px;
 }
 
-.world-img{
-    width: 100%;
-}
 /* .about-img img{
     width: 50%;
 } */
@@ -573,9 +570,7 @@ text-transform: capitalize;
     background-color: white;
     
 }
-.filter{
-    width: 60px;
-}
+
 .project-list{
     list-style: none;
     padding: 0px;
@@ -616,8 +611,7 @@ transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1)
     
 }
 .project-elements .folder  img{
-    width: 30px;
-    height: 30px;
+   
     stroke: #00ec76;
 }
 
