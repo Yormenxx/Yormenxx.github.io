@@ -120,9 +120,6 @@ nav{
 }
 
 
-.icon-main-juma{
-    width: 65px;
-}
 
 .social-media-navbar{
     list-style: none;
@@ -145,8 +142,7 @@ main{
 
 }
 .curve{
-    width: 100%;
-    height: 100%;
+ 
     position: absolute;
     left: 0;
     top: 0;
@@ -179,7 +175,6 @@ main{
 }
 
 .gif-main{
-    width: 500px;
     overflow: hidden;
     filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.596));
 }
@@ -418,8 +413,8 @@ text-transform: capitalize;
   }
   
   .logos-slide img {
-    width: 78px;
-    height: 78px;
+    /* width: 78px;
+    height: 78px; */
     margin: 0 40px;
 
   }
