@@ -85,8 +85,8 @@
 
                 <div class="container-text-main">
     
-                    <p class="text-blink">Hello visitor</p><br>
-                    <p class="item-text-main">My name is Juan</p>
+                    <p class="text-blink">Hola visitante</p><br>
+                    <p class="item-text-main">Mi nombre es Juan</p>
                     <span class="auto-typed" id="typed"></span><br>
                     <p class="text-about"><span class="text-diff">Software developer</span> focused on the <span class="text-diff">Back-end </span> capable of carrying out projects that allowed continuous and <span class="text-diff">optimized delivery</span> to users.</p>
                     <br>
@@ -209,12 +209,12 @@
             <div class="about-me-container">
 
 
-                <p class="about-me">
+                <!-- <p class="about-me">
     
                     I have created Rest Api's in technologies such as Nodejs, Express and Mysql. Although  I also created projects with front-end focus in Html, Css, Sass, Tailwindcss.
                     Despite the Back-end approach I also have slight knowledge in data science technologies such as (Python, R, Excel and DB).
                 
-                </p>
+                </p> -->
 <!-- 
                 <div>
                     <img src="./images/world.svg" alt="world" decoding="async" class="world-img" width="100%">
@@ -377,124 +377,115 @@
 
     <div class="projects-main">
 
-        <h3>PROJECTS</h3>
+        <h3>Proyectos destacados</h3>
 
         <div  class="main-projects">
 
+            <div class="filters">
+                <div class="container-filter">
+                    <img src="./images/filter-svgrepo-com.svg" alt="filter" class="filter" decoding="async" width="35px">
+                    <div class="container-labels">
+        
+                        <label for="" data-filter="TODOS" class="list-category">
+                            Todos
+                        </label>
+        
+                        <label for="" data-filter="BACK" class="list-category">
+                            Backend
+                        </label>
+        
+                        <label for="" data-filter="WEB" class="list-category">
+                            Web
+                        </label>
+        
+                        <label for="" data-filter="OTROS" class="list-category">
+                            Otros
+                        </label>
+                    </div>
+                </div>
+                <div class="input-container-filter" >
+                    <input type="text" placeholder="Busca por nombre" id="filterInput">
+                </div>
+
+            </div>
+
+          
+
             <div class="main-projects-items">
 
-                <div class="item-main">
-
-                    <div class="item-main-img">
-                        <img src="./images/mockups/architects.png" width="400" height="240" alt="architects-mockup">
-                    </div>
-
-                    <div class="item-main-body">
-                        <h4>Architects fan landing</h4>
+                <a href="#" class="item-main card  item-project WEB" data-category="WEB">
+                    <div class="item-main-body ">
+                        <h4><img src="./images/folder.svg" alt="folder" width="25"> Architects fan landing</h4>
+                        <p>
+                        Sitio web inspirado en la banda britanica Architects, en ella se econtrarán discos y elementos de la banda.
+                        </p>
                         <div class="item-main-skills">   
-                            <span ><img src="./images/tech/main/react-svgrepo-com.svg" width="20" alt="react">React</span>
-                            <span><img src="./images/tech/main/tailwind-svgrepo-com.svg" width="20" alt="tailwind">Tailwind</span>
-                            <span><img src="./images/tech/main/react-router-svgrepo-com.svg" width="20" alt="tailwind">React router</span>
-
+                            <span>React</span>
+                            <span>Tailwind</span>
+                            <span>React Router</span>
                         </div>
-             
-
-        
                     </div>
+                </a>
 
+                <a href="" class="item-main card  item-project BACK"  data-category="WEB">
 
-                </div>
-
-                <div class="item-main">
-
-                    <div class="item-main-img">
-                        <img src="./images/mockups/medical.png" width="400" height="240" alt="medical-mockup">
-                    </div>
-
-                    <div class="item-main-body">
-                        <h4>Medical web</h4>
+                    <div class="item-main-body ">
+                        <h4><img src="./images/folder.svg" alt="folder" width="25">Medical web</h4>
+                        <p>Página web que permite el uso de un backend, que agenda las citas registradas mediante un formulario.</p>
                         <div class="item-main-skills">   
-                            <span ><img src="./images/tech/main/icons8-javascript.svg"  alt="javascript" width="20" >Javascript</span>
-                            <span><img src="./images/tech/main/icons8-html.svg"  width="20" alt="html">Html</span>
-                            <span><img src="./images/tech/main/icons8-css.svg" width="20" alt="css">Css</span>
-                            <span><img src="./images/tech/main/icons8-php.svg" width="20" alt="css">Php</span>
-                            <span><img src="./images/tech/main/icons8-mysql.svg" width="20" alt="css">Mysql</span>
-
-                        </div>
-                    
-
-                    
+                            <span >Javascript</span>
+                            <span>Html</span>
+                            <span>Css</span>
+                            <span>Php</span>
+                            <span>Mysql</span>
+                        </div>       
                     </div>
+                </a>
 
+                <a href="" class="item-main card item-project WEB"  data-category="WEB">
 
-                </div>
-
-                <div class="item-main">
-
-                    <div class="item-main-img">
-                        <img src="./images/mockups/pubg.png" width="400" height="240" alt="pubg-mockup">
-                    </div>
-
-                    <div class="item-main-body">
-                        <h4>Pubg new state landing</h4>
+                    <div class="item-main-body  ">
+                        <h4><img src="./images/folder.svg" alt="folder" width="25">Pubg new state landing</h4>
+                        <p>Langing page del videojuego Mobile New State mediante el uso de Boostrap</p>
                         <div class="item-main-skills">   
-                            <span ><img src="./images/tech/main/icons8-bootstrap.svg"  alt="booststrap" width="20" >Booststrap</span>
-                            <span><img src="./images/tech/main/icons8-html.svg"  width="20" alt="html">Html</span>
-                            <span><img src="./images/tech/main/icons8-css.svg" width="20" alt="css">Css</span>
+                            <span>Booststrap</span>
+                            <span>Html</span>
+                            <span>Css</span>
 
                         </div>
                   
                     </div>
+                </a>
 
-
-                </div>
-
-                <div class="item-main">
-
-                    <div class="item-main-img">
-                        <img src="./images/mockups/libros.png" width="400" height="240" alt="sql-mockup">
-                    </div>
-
-                    <div class="item-main-body">
-                        <h4>Books storage</h4>
+                <a href="" class="item-main card item-project BACK "  data-category="WEB">
+                    <div class="item-main-body ">
+                        <h4><img src="./images/folder.svg" alt="folder" width="25">Books storage</h4>
+                        <p>Página web que permite guardar libros en un Json. Además del uso de un filtro de acuerdo al titulo del libro </p>
                         <div class="item-main-skills">   
-                            <span ><img src="./images/tech/main/icons8-javascript.svg"  alt="javascript" width="20" >Javascript</span>
-                            <span><img src="./images/tech/main/icons8-html.svg"  width="20" alt="html">Html</span>
-                            <span><img src="./images/tech/main/icons8-css.svg" width="20" alt="css">Css</span>
-                            <span><img src="./images/tech/main/nodejs-1-logo-svgrepo-com.svg" width="20" alt="nodejs">Nodejs</span>
-                            <span><img src="./images/tech/main/icons8-express-js.svg" width="20" alt="Express">Express</span>
+                            <span>Javascript</span>
+                            <span>Html</span>
+                            <span>Css</span>
+                            <span>Nodejs</span>
+                            <span>Express</span>
                             <span>Ejs</span>
                         </div>
-               
                     </div>
+                </a>
 
-
-                </div>
-
-                <div class="item-main">
-
-                    <div class="item-main-img">
-                        <img src="./images/mockups/socket2.png" width="400" height="240" alt="sql-mockup">
-                    </div>
-
-                    <div class="item-main-body">
-                        <h4>Chat using sockets</h4>
+                <a class="item-main  card  item-project BACK"  data-category="WEB">
+                    <div class="item-main-body ">
+                        <h4><img src="./images/folder.svg" alt="folder" width="25">Chat using sockets</h4>
+                        <p>Chat mediante el uso de sockets, permite el registro temporal del usuario.</p>
                         <div class="item-main-skills">   
-                            <span ><img src="./images/tech/main/icons8-javascript.svg"  alt="javascript" width="20" >Javascript</span>
-                            <span><img src="./images/tech/main/icons8-html.svg"  width="20" alt="html">Html</span>
-                            <span><img src="./images/tech/main/icons8-css.svg" width="20" alt="css">Css</span>
-                            <span><img src="./images/tech/main/nodejs-1-logo-svgrepo-com.svg" width="20" alt="nodejs">Nodejs</span>
-                            <span><img src="./images/tech/main/icons8-express-js.svg" width="20" alt="Express">Express</span>
+                            <span >Javascript</span>
+                            <span>Html</span>
+                            <span>Css</span>
+                            <span>Nodejs</span>
+                            <span>Express</span>
                             <span>Socket.io</span>
-
-
-                        </div>
-                     
-
+                        </div>              
                     </div>
-
-
-                </div>
+                </a>
 
             </div>
 
