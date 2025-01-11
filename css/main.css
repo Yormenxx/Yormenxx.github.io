@@ -209,7 +209,7 @@ main{
 
 .about-section{
     width: 100%;
- 
+    
 }
 
 .text-blink{
@@ -291,11 +291,11 @@ padding: 7px 20px;
     font-size: 18px;
     color: white;
     line-height: 30px;
-    
+
 }
 .container-about-me{
-    /* background-color: rgba(0, 0, 0, 0.404); */
-    /* border-radius:15px;
+    /* background-color: rgba(14, 14, 14, 0.404); 
+     border-radius:15px;
     -webkit-box-shadow: 1px 10px 25px -7px rgba(0,0,0,0.97);
     -moz-box-shadow: 1px 10px 25px -7px rgba(0,0,0,0.97);
     box-shadow: 1px 10px 25px -7px rgba(0,0,0,0.97); */
@@ -328,9 +328,7 @@ padding: 7px 20px;
     transition: .5s ease-in-out;
 
 }
-.education:hover,.experience:hover,.service:hover{
-    background-color: rgba(255, 255, 255, 0.068);
-}
+
 
 .title-eduAndExp{
     width: 150px;
@@ -552,37 +550,68 @@ text-transform: capitalize;
 
 /*services*/
 .services-container{
-    position: relative;
-    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 10px;
+    max-width: 1200px;
+    margin: auto;
+    gap: 30px;
+}
+
+.stack-main-service{
+    max-width: 40%;
+  flex: 1 1 300px;
 }
 
 .services-container h3{
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.1rem;
     color: #00ec76;
     margin: 10px;
     
 }
 .container-services{
-    width: 100%;
+    /* width: 100%;
     display: flex;
     flex-direction: row;
     row-gap: 20px;
     flex-wrap:wrap;
-    justify-content:center;
+    justify-content:space-around;
     align-items: flex-start;
     column-gap: 30px;
-  
+    margin-top: 30px; */
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    flex: 1 1 300px;
 
 }
 .service{
+    position: relative;
     width: 300px;
-    padding: 20px 10px;
-    border-radius: 10px;
+    padding: 20px;
     text-align: left;
-    transition: .5s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    background-color: #151515;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.082);
+    transition: .2s ease-in-out;
+}
+.service:hover{
+    background-color: #15151598;
 }
 
+.card-number {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 48px;
+    color: rgba(255, 255, 255, 0.233);
+    font-weight: bold;
+  }
 
 .service h2{
     font-size: 1.25rem;
@@ -596,8 +625,8 @@ text-transform: capitalize;
 
 .service p{
     font-size: .9rem;
-    line-height: 1.7rem;
-    padding-bottom:20px ;
+    line-height: 1.3rem;
+    padding-bottom:10px ;
     color: rgba(255, 255, 255, 0.712);
 
     text-align: left;
@@ -612,15 +641,18 @@ text-transform: capitalize;
 }
 
 .service-list{
+    list-style: none;
     color: white;
-    padding: 10px 20px;
+    padding-top: 7px;
     text-align: left;
 }
 .service-list li{
     padding-bottom: 4px;
     color: #00ec76c7;
 }
-
+.service-list li i{
+    margin-right: 4px;
+}
 /*
     projects
 */
@@ -712,12 +744,12 @@ text-transform: capitalize;
 }
 
 #filterInput{
-    width: 370px;
+    width: 470px;
     outline: none;
     height: 35px;
     border-radius: 10px;
     border: 1px solid white;
-    padding: 4px 3px;
+    padding: 4px 5px;
     color: white;
     background-color: transparent;
 }
@@ -948,7 +980,7 @@ transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1)
 }
 
 .contact-item-paragraph{
-    width: 500px;
+    width: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
