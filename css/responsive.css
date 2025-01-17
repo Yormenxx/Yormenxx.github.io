@@ -1,4 +1,48 @@
+@media screen and (max-width: 980px){
+    .items-contact-main{
+        justify-content: center;
+      }
+      .open-to{
+        margin: 0 auto;
+        justify-content: center;
+       
+    }
 
+    .container-text-main{
+        text-align: center;
+        color: white;
+        width: 70%;
+    }
+
+    .services-container{
+        flex-direction: column;
+       
+    }
+
+    .stack-main-service{
+        max-width: 70%;
+        text-align: center;
+    }
+    .service{
+        border-color:#00ec76 ;
+    }
+
+    .stack-main-service h3{
+        width: 100%;
+        font-size: 2.7rem;
+    }
+
+    .item-main-skills span{
+        text-transform: uppercase;
+        padding: .3rem;
+        font-size: .7rem;
+        background-color: #04bd61;
+        color: white;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+  
+}
 
 @media screen and (max-width: 768px){
 
@@ -19,16 +63,16 @@
     width: 100%;
     
     }
-
+/* 
     .eduAndExp{
         flex-wrap: wrap;
         padding: 0px;
       
-    }
-    .about-me{
+    } */
+    /* .about-me{
         width: 100%;
 
-    }
+    } */
 
     
     .container-main-items{
@@ -43,15 +87,21 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        
     }
 
     .container-text-main{
-    
         width: 90%;
         text-align: center;
     }
-
+    .items-contact-main{
+        justify-content: center;
+      }
+      .open-to{
+        margin: 0 auto;
+        justify-content: center;
+       
+    }
+    
     .container--items-social{
         justify-content: center;
 
@@ -72,12 +122,15 @@
 
 
 @media screen  and (max-width: 480px){
-
+    header{
+        padding: 4px 0px;
+    
+    }
 
     nav{
     
-        width: 90%;
-        padding: 10px 0px;
+        width: 99%;
+        padding: 7px 0px;
     }
     
  
@@ -179,6 +232,10 @@
         align-items:flex-start;
        
     }
+    #filterInput{
+        width: 300px;
+        
+    }
 
 
 }
@@ -199,7 +256,7 @@
 
     nav{
     
-        width: 90%;
+        width: 93%;
         row-gap: 20px;
         border-radius: 10px;
         padding: 10px 0px;
@@ -284,6 +341,11 @@
         row-gap: 20px;
     }
 
+    #filterInput{
+        width: 300px;
+        
+    }
+    
 
     form{
         width: 100%;
