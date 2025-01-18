@@ -152,5 +152,22 @@ document.getElementById('filterInput').addEventListener('input', function () {
 
 })();   
 
+const $adress = document.getElementById("adress").textContent
 
+async function copyToClipboard() {
+    document.getElementById("mensaje").style.display = "block";
+    try{
+        await navigator.clipboard.writeText($adress);
+        document.getElementById("mensaje").textContent = "¡Texto copiado al portapapeles!";
+
+        setTimeout(() => {
+          document.getElementById("mensaje").style.display = "none";
+        }, 2000);
+    }catch(error){
+        console.error('Error al copiar: ', error);
+        const messageElement = document.getElementById("mensaje");
+        if (messageElement) {
+          messageElement.textContent = "Error al copiar el texto.";}
+    }
+}
 
