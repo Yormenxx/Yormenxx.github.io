@@ -177,15 +177,7 @@ main{
 
 
 }
-/* .curve{
- 
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: -10;
-    border-radius: 25px;
-    padding: 10px;
-} */
+
 .container-main{
     position: relative;
     width: 100%;
@@ -320,11 +312,7 @@ padding: 7px 20px;
 
 }
 .container-about-me{
-    /* background-color: rgba(14, 14, 14, 0.404); 
-     border-radius:15px;
-    -webkit-box-shadow: 1px 10px 25px -7px rgba(0,0,0,0.97);
-    -moz-box-shadow: 1px 10px 25px -7px rgba(0,0,0,0.97);
-    box-shadow: 1px 10px 25px -7px rgba(0,0,0,0.97); */
+ 
     padding: 20px;
     margin:20px;
 }
@@ -335,9 +323,6 @@ padding: 7px 20px;
   
 }
 
-/* .about-img img{
-    width: 50%;
-} */
 
 .eduAndExp{
     display: flex;
@@ -389,13 +374,6 @@ text-transform: capitalize;
     font-size: .9rem;
 } 
     
-/* .about-container h2{
-    text-align: center;
-    color: white;
-    margin: 5px;
-
-    
-} */
 
 .main-title{
     font-size: 52px;
@@ -408,33 +386,7 @@ text-transform: capitalize;
 .about-container{
     position: relative;
 }
-/* .about-container{
-	text-align: left;
-    padding: 30px;
-	h2{
-		
-		font-size: 52px;
-		text-transform: capitalize;
-		font-weight: 800;
-		background: linear-gradient(to right,#00ec76 10%, #25e870 50%, #ffffff 60%);
-		background-size: auto auto;
-		background-clip: border-box;
-		background-size: 200% auto;
-		color: #fff;
-		background-clip: text;
-		text-fill-color: transparent;
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		animation: textclip 2.5s linear infinite;
-		display: inline-block;
-	}
-} */
 
-/* @keyframes textclip {
-	to {
-		background-position: 200% center;
-	}
-} */
 
 @keyframes slide {
     from {
@@ -480,8 +432,6 @@ text-transform: capitalize;
   }
   
   .logos-slide img {
-    /* width: 78px;
-    height: 78px; */
     margin: 0 40px;
 
   }
@@ -544,14 +494,7 @@ text-transform: capitalize;
     margin-top: 13px;
     border-radius: 5px;
 }
-/* .container--items-social{
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 10px;
-    justify-content: flex-start;
-    column-gap: 10px;
-   
-} */
+
 
 .icon-information{
     width: 30px;
@@ -611,18 +554,7 @@ text-transform: capitalize;
     
 }
 .container-services{
-    /* width: 100%;
-    display: flex;
-    flex-direction: row;
-    row-gap: 20px;
-    flex-wrap:wrap;
-    justify-content:space-around;
-    align-items: flex-start;
-    column-gap: 30px;
-    margin-top: 30px; */
-   
     display: grid;
-    /* grid-template-columns: repeat(2, 1fr); */
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
     flex: 1 1 300px; 
@@ -738,11 +670,6 @@ text-transform: capitalize;
     padding: 10px;
  
 }
-
-
-/* .main-projects{
-    background-color: #333;
-} */
 
 
 .main-projects-items{
