@@ -533,10 +533,22 @@ text-transform: capitalize;
 
 .stack-main-service{
     max-width: 40%;
+    padding: 90px 0px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     row-gap: 15px;
     color: white;
+    background-color: #151515;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    transition: .2s ease-in-out;
+}
+
+.subtle{
+    color: #ffffffb9;
 }
 .container-service-stack{
     display: flex;
@@ -595,7 +607,7 @@ text-transform: capitalize;
     border-left-color: #00ec76;
 }
 
-.service:hover{
+.service:hover,.stack-main-service:hover{
     background-color: #15151598;
 }
 
@@ -654,9 +666,12 @@ text-transform: capitalize;
 
 .projects-main{
     width: 100%;
-    /* background-color: rgba(0, 0, 0, 0.404); */
-    padding: 60px 100px;
+    background-color: #0c0c0cda;
+    padding: 0px 100px;
     margin-top: 40px;
+    box-shadow: 0px -18px 47px 4px rgba(0,0,0,0.75);
+-webkit-box-shadow: 3px -18px 47px 4px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px -18px 47px 4px rgba(0,0,0,0.75);
 }
 .projects-main h3,.stack-main-service h3{
     width: 100%;
@@ -777,7 +792,7 @@ text-transform: capitalize;
     
 }
 
-.project-list{
+/* .project-list{
     list-style: none;
     padding: 0px;
     margin: 50px 0px 0px;
@@ -795,16 +810,16 @@ text-transform: capitalize;
 -moz-box-shadow: 1px 10px 25px -7px rgba(0,0,0,0.97);
 box-shadow: 1px 10px 25px -7px rgba(0,0,0,0.97);
 transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1)
-}
-.project-inner{
+} */
+/* .project-inner{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     position: relative;
     height: 100%;
     padding: 4px 5px;
-}
-.project-item:hover{
+} */
+/* .project-item:hover{
     transform: translate(5px, -5px);
     transition: .3s linear;
 }
@@ -847,9 +862,9 @@ transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1)
     margin: 5px 0px 0px;
     column-gap: 5px;
    
-}
+} */
 
-.project-title{
+/* .project-title{
     color: white;
 
 }
@@ -859,16 +874,16 @@ transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1)
 .project-inner  .list-tech li{
     color: white;
 }
+ */
 
-
-.more-projects a:hover{
+/* .more-projects a:hover{
     background-color: var(--blackColor);
     color: var(--white);
     transition: .2s linear;
     border: 1px solid var(--white);
     cursor: pointer;
 }
- */
+  */
 
 
 .contact-services{
