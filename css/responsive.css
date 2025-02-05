@@ -1,38 +1,40 @@
-@media screen and (max-width: 980px){
-    .items-contact-main{
+@media screen and (max-width: 980px) {
+    .items-contact-main {
         justify-content: center;
-      }
-      .open-to{
-        margin: 0 auto;
-        justify-content: center;
-       
     }
 
-    .container-text-main{
+    .open-to {
+        margin: 0 auto;
+        justify-content: center;
+
+    }
+
+    .container-text-main {
         text-align: center;
         color: white;
         width: 70%;
     }
 
-    .services-container{
+    .services-container {
         flex-direction: column;
-       
+
     }
 
-    .stack-main-service{
-        max-width: 70%;
+    .stack-main-service {
+        max-width: 90%;
         text-align: center;
     }
-    .service{
-        border-color:#00ec76 ;
+
+    .service {
+        border-color: #00ec76;
     }
 
-    .stack-main-service h3{
+    .stack-main-service h3 {
         width: 100%;
         font-size: 2.7rem;
     }
 
-    .item-main-skills span{
+    .item-main-skills span {
         text-transform: uppercase;
         padding: .3rem;
         font-size: .7rem;
@@ -41,29 +43,32 @@
         font-weight: bold;
         border-radius: 5px;
     }
-  
+
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
 
-    nav{
-    
+    nav {
+
         width: 99%;
-    
+
     }
-    .curve{
-        
+
+    .curve {
+
         padding: 5px;
     }
 
-    .about-me-container{
+    .about-me-container {
         flex-wrap: wrap;
     }
-    .stats-container{
-    width: 100%;
-    
+
+    .stats-container {
+        width: 100%;
+
     }
-/* 
+
+    /* 
     .eduAndExp{
         flex-wrap: wrap;
         padding: 0px;
@@ -74,14 +79,14 @@
 
     } */
 
-    
-    .container-main-items{
-      
-        justify-content: center;  
-    
+
+    .container-main-items {
+
+        justify-content: center;
+
     }
 
-    .buttons-containers{
+    .buttons-containers {
         width: 100%;
         padding: 10px;
         display: flex;
@@ -89,30 +94,32 @@
         justify-content: center;
     }
 
-    .container-text-main{
+    .container-text-main {
         width: 90%;
         text-align: center;
     }
-    .items-contact-main{
+
+    .items-contact-main {
         justify-content: center;
-      }
-      .open-to{
+    }
+
+    .open-to {
         margin: 0 auto;
         justify-content: center;
-       
+
     }
-    
-    .container--items-social{
+
+    .container--items-social {
         justify-content: center;
 
-       
+
     }
 
-    .cnt-inputs input::placeholder{
-       
+    .cnt-inputs input::placeholder {
+
         font-size: .9rem;
         text-align: left;
-        
+
     }
 
 
@@ -121,120 +128,123 @@
 
 
 
-@media screen  and (max-width: 480px){
-    header{
+@media screen and (max-width: 480px) {
+    header {
         padding: 4px 0px;
-    
+
     }
 
-    nav{
-    
+    nav {
+
         width: 99%;
         padding: 7px 0px;
     }
-    
- 
 
-    .curve{
-        
+
+
+    .curve {
+
         padding: 5px;
     }
 
-    .about-me-container{
+    .about-me-container {
         flex-wrap: wrap;
-    }
-    .stats-container{
-    width: 100%;
-    
     }
 
-    .eduAndExp{
-        flex-wrap: wrap;
-        padding: 0px;
-      
-    }
-    .about-me{
+    .stats-container {
         width: 100%;
 
     }
 
-    
-    #typed{
-    
+    .eduAndExp {
+        flex-wrap: wrap;
+        padding: 0px;
+
+    }
+
+    .about-me {
+        width: 100%;
+
+    }
+
+
+    #typed {
+
         font-size: 1.8rem;
         text-align: center;
     }
 
-    section.row{
+    section.row {
         grid-template-columns: 1fr
     }
 
 
-    .container-main-items{
-      
-        justify-content: center;  
-    
+    .container-main-items {
+
+        justify-content: center;
+
     }
 
-    .container-text-main{
-    
+    .container-text-main {
+
         width: 90%;
     }
 
-    .container-text-stack-info{
+    .container-text-stack-info {
         width: 100%;
     }
 
-    .container-text-information{
+    .container-text-information {
         padding-top: 12px;
         width: 100%;
         text-align: center;
     }
 
-    .service{
-        padding:10px 0px;
+    .service {
+        padding: 10px 0px;
     }
 
 
-    
-    .projects-main{
+
+    .projects-main {
         padding: 8px;
     }
 
-    .buttons-containers{
+    .buttons-containers {
         row-gap: 20px;
         justify-content: center;
     }
 
-    
-    form{
+
+    form {
         width: 100%;
         padding: 20px 5px;
         margin-top: 20px;
     }
 
-    .cnt-inputs input::placeholder{
-       
+    .cnt-inputs input::placeholder {
+
         font-size: 1rem;
         text-align: left;
-        
+
     }
 
-    footer{
+    footer {
         padding: 10px;
     }
 
-    .container-footer{
+    .container-footer {
         flex-wrap: wrap;
         row-gap: 10px;
         column-gap: 20px;
-        justify-content:center;
-        align-items:flex-start;
-       
+        justify-content: center;
+        align-items: flex-start;
+
     }
-    #filterInput{
+
+    #filterInput {
         width: 300px;
-        
+
     }
 
 
@@ -243,131 +253,184 @@
 
 
 
-@media screen  and (max-width: 360px){
+@media screen and (max-width: 360px) {
 
-    .chevron-up-container{
+    .chevron-up-container {
         right: 20px;
     }
 
-    header{
-        padding: 10px 0px;
-    
+    header {
+        padding: 20px 0px;
+
     }
 
-    nav{
-    
+    nav {
+
         width: 93%;
         row-gap: 20px;
         border-radius: 10px;
-        padding: 10px 0px;
-    
+        padding: 20px 0px;
+
     }
-    .curve{
-        
+
+
+    .main-selection-nav li a {
+        font-size: .9rem;
+    }
+
+
+
+    .curve {
+
         padding: 5px;
     }
 
-    .about-me-container{
+    .about-me-container {
         flex-wrap: wrap;
-    }
-    .stats-container{
-    width: 100%;
-    
     }
 
-    .eduAndExp{
-        flex-wrap: wrap;
-        padding: 0px;
-      
-    }
-    .about-me{
+    .stats-container {
         width: 100%;
 
     }
 
-    
-    
-    .container-main-items{
-        padding-top: 10px;
-        justify-content: center;  
-    
+    .eduAndExp {
+        flex-wrap: wrap;
+        padding: 0px;
+
     }
 
-    .container-text-main{
-    
+    .about-me {
+        width: 100%;
+
+    }
+
+
+
+    .container-main-items {
+        padding-top: 10px;
+        justify-content: center;
+
+    }
+
+    .container-text-main {
+
         width: 90%;
     }
 
-    #typed{
-    
-        font-size: 1.6rem;
+    #typed {
+
+        font-size: 1.4rem;
         text-align: center;
     }
 
-    section.row{
+    .open-to {
+        width: 300px;
+    }
+
+    section.row {
         grid-template-columns: 1fr
     }
 
-    .container-text-stack-info{
+    .container-text-stack-info {
         width: 100%;
     }
 
-    .container-text-information{
+    .container-text-information {
         padding-top: 12px;
         width: 100%;
         text-align: center;
     }
-  
-    .buttons-containers{
+
+    .buttons-containers {
         row-gap: 20px;
         justify-content: center;
     }
 
 
-    .services-container{
+    .services-container {
         padding: 5px;
-        
+
     }
-    .service{
-        padding:10px 0px;
+
+    .service {
+        padding: 10px;
+    }
+
+    .stack-main-service h3 {
+        max-width: 100%;
+
     }
 
 
-    .projects-main{
+    .projects-main {
         padding: 8px;
     }
 
-    .container-items-contact{
+    .container-items-contact {
         row-gap: 20px;
     }
 
-    #filterInput{
+    #filterInput {
         width: 300px;
-        
-    }
-    
 
-    form{
+    }
+
+    .container-labels {
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+
+    .item-main-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: .4rem;
+    }
+
+    .item-main-body h4 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-size: 1rem;
+    }
+
+    /* form {
         width: 100%;
         padding: 20px 5px;
     }
 
-    .cnt-inputs input::placeholder{
-       
+    .cnt-inputs input::placeholder {
+
         font-size: .6rem;
         text-align: left;
-        
+
+    } */
+
+    .contact-item-paragraph {
+        width: 100%;
+
     }
 
-    footer{
+    .contact-item-info{
+        flex-direction: column;
+        row-gap: 20px;
+        text-align: center;
+    }
+
+
+    footer {
         padding: 10px;
     }
 
-    .container-footer{
+    .container-footer {
         flex-wrap: wrap;
         row-gap: 10px;
         justify-content: space-between;
-        align-items:center;
-       
+        align-items: center;
+
     }
 }
