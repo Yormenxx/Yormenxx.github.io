@@ -242,10 +242,10 @@
 
     }
 
-    #filterInput {
+    /* #filterInput {
         width: 300px;
 
-    }
+    } */
 
 
 }
@@ -370,11 +370,11 @@
     .container-items-contact {
         row-gap: 20px;
     }
-
+/* 
     #filterInput {
-        width: 300px;
+        width: 270px;
 
-    }
+    } */
 
     .container-labels {
         flex-wrap: wrap;
