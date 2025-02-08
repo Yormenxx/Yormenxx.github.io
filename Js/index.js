@@ -1,5 +1,6 @@
 
 
+
 //PROGRESS BAR
 window.addEventListener("load",()=>{
 
@@ -152,24 +153,33 @@ document.getElementById('filterInput').addEventListener('input', function () {
 
 })();   
 
+
+
+const alertContext = document.querySelector(".alert-message")
+
+
+const notification = text =>{
+    alertContext.textContent=text;
+    alertContext.classList.add("active");
+    setTimeout(()=>{
+        alertContext.classList.remove("active");
+    },2000)
+   
+}
+
 const $adress = document.getElementById("adress").textContent
 
 async function copyToClipboard() {
-    document.getElementById("mensaje").style.display = "block";
+    
     try{
         await navigator.clipboard.writeText($adress);
-        document.getElementById("mensaje").textContent = "¡Texto copiado al portapapeles!";
-
-        setTimeout(() => {
-          document.getElementById("mensaje").style.display = "none";
-        }, 2000);
+         notification("Se ha copiado al portapapeles")
     }catch(error){
         console.error('Error al copiar: ', error);
-        const messageElement = document.getElementById("mensaje");
-        if (messageElement) {
-          messageElement.textContent = "Error al copiar el texto.";}
+
     }
 }
+
 
 
 

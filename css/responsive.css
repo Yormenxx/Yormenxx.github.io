@@ -10,7 +10,7 @@
     }
 
     .container-text-main {
-        text-align: center;
+        text-align: center;   
         color: white;
         width: 70%;
     }
@@ -156,11 +156,7 @@
 
     }
 
-    .eduAndExp {
-        flex-wrap: wrap;
-        padding: 0px;
-
-    }
+  
 
     .about-me {
         width: 100%;
@@ -216,18 +212,8 @@
     }
 
 
-    form {
-        width: 100%;
-        padding: 20px 5px;
-        margin-top: 20px;
-    }
-
-    .cnt-inputs input::placeholder {
-
-        font-size: 1rem;
-        text-align: left;
-
-    }
+    
+   
 
     footer {
         padding: 10px;
