@@ -79,11 +79,35 @@
 
     } */
 
+ 
+    .contact-item-info{
+        flex-direction: column;
+        row-gap: 20px;
+        text-align: center;
+    }
+    
 
     .container-main-items {
 
         justify-content: center;
 
+    }
+
+    .projects{
+   
+        padding: 10px;
+    }
+    
+    .item-main{
+ 
+   
+        padding: .5rem;
+       
+    }
+
+    .projects-main{
+        padding: 10px;
+      
     }
 
     .buttons-containers {
@@ -121,7 +145,14 @@
         text-align: left;
 
     }
-
+    .container-services-items{
+        width: 90%;
+        margin: 0 auto;
+        /* border: 1px solid rgba(255, 255, 255, 0.507); */
+        border-radius: 20px;
+        padding: 10px;
+    
+    }
 
 
 }
@@ -129,6 +160,9 @@
 
 
 @media screen and (max-width: 480px) {
+    .bumble{
+        right: 2.5rem;
+    }
     header {
         padding: 4px 0px;
 
@@ -181,6 +215,22 @@
 
     }
 
+    .projects{
+   
+        padding: 10px;
+    }
+    
+    .item-main{
+ 
+   
+        padding: .5rem;
+       
+    }
+
+    .projects-main{
+        padding: 10px;
+      
+    }
     .container-text-main {
 
         width: 90%;
@@ -197,7 +247,7 @@
     }
 
     .service {
-        padding: 10px 0px;
+        padding: 10px ;
     }
 
 
@@ -211,7 +261,11 @@
         justify-content: center;
     }
 
-
+    .contact-item-info{
+        flex-direction: column;
+        row-gap: 20px;
+        text-align: center;
+    }
     
    
 
@@ -233,6 +287,14 @@
 
     } */
 
+    .container-services-items{
+        width: 90%;
+        margin: 0 auto;
+        /* border: 1px solid rgba(255, 255, 255, 0.507); */
+        border-radius: 20px;
+        padding: 10px;
+    
+    }
 
 }
 
@@ -242,7 +304,7 @@
 @media screen and (max-width: 360px) {
 
     .chevron-up-container {
-        right: 20px;
+        right: 100px;
     }
 
     header {
@@ -340,17 +402,32 @@
     }
 
     .service {
+        width: 90%;
         padding: 10px;
+        border: none;
     }
 
     .stack-main-service h3 {
         max-width: 100%;
 
     }
+    .projects{
+   
+        padding: 10px;
+    }
+    
+    
 
 
     .projects-main {
         padding: 8px;
+    }
+
+    .item-main{
+ 
+   
+        padding: .2rem;
+       
     }
 
     .container-items-contact {
@@ -407,6 +484,11 @@
         text-align: center;
     }
 
+    .contact-services{
+        padding: 0px;
+        
+    }
+
 
     footer {
         padding: 10px;
@@ -418,5 +500,14 @@
         justify-content: space-between;
         align-items: center;
 
+    }
+
+    .container-services-items{
+        width: 90%;
+        margin: 0 auto;
+        /* border: 1px solid rgba(255, 255, 255, 0.507); */
+        border-radius: 20px;
+        padding: 10px;
+    
     }
 }

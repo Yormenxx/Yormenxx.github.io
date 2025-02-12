@@ -232,6 +232,7 @@ main{
 }
 
 .gif-main{
+    width: 500px;
     overflow: hidden;
     filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.596));
 }
@@ -607,7 +608,6 @@ text-transform: capitalize;
 .service{
     width: 100%;
     position: relative;
-
     padding: 20px;
     text-align: left;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
@@ -693,8 +693,11 @@ text-transform: capitalize;
 */
 
 .projects{
+   
     padding: 30px;
 }
+
+
 
 .projects-main{
     width: 100%;
@@ -937,16 +940,35 @@ transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1)
 
 
 .contact-services{
+    width: 100%;
     position: relative;
-    padding: 20px;
- 
+    padding: 60px 0px;
+    background: url("../images/Group.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
 }
+.container-services-items{
+
+background: rgba(255, 255, 255, 0.068);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4px);
+-webkit-backdrop-filter: blur(5px);
+
+}
+
 .container-items-contact{
     position: relative;
 }
 .container-services-items{
+    width: 60%;
+    margin: 0 auto;
+    /* border: 1px solid rgba(255, 255, 255, 0.507); */
     border-radius: 20px;
     padding: 30px;
+
 }
 
 .container-services-items h3{
@@ -1024,7 +1046,7 @@ transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1)
 
 .contact-item-paragraph{
     position: relative;
-    width: 60%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1093,7 +1115,7 @@ transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1)
     position: absolute;
     width: 300px;
     left: 40%;
-    bottom: 10%;
+    top: 60%;
 
 }
 
