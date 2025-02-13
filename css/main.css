@@ -584,7 +584,7 @@ text-transform: capitalize;
     justify-content: center;
     align-items: center;
     row-gap: 10px;
-    column-gap: 30px;
+    column-gap: 10px;
 }
 
 /* .services-container h3{
