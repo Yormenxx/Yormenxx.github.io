@@ -339,57 +339,6 @@ padding: 7px 20px;
   
 }
 
-/* 
-.eduAndExp{
-    display: flex;
-    justify-content: center;
-    row-gap: 20px;
-    column-gap: 20px;
-    padding: 0px 30px;
-    margin: 5px;
-}
-
-.education,.experience{
-    border-radius: 20px;
-    padding: 30px 22px;
-    transition: .5s ease-in-out;
-
-}
-
-
-.title-eduAndExp{
-    width: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    column-gap: 5px;
-    padding: 6px 2px;
-    border: 1px solid rgba(128, 128, 128, 0.253);
-    border-radius: 4px;
-    color: rgba(255, 255, 255, 0.767);
-    text-transform: capitalize;
-    font-size: .9rem;
-}
-
-.item-eduAndExp h4{
-color: rgba(255, 255, 255, 0.815);
-padding: 10px 0px;
-text-transform: capitalize;
-font-size: 1.3rem;
-} 
-
-.item-eduAndExp h3{
-color: #00ec76ad;
-text-transform: capitalize;
-} 
-
-
-.item-eduAndExp p{
-    color: rgba(255, 255, 255, 0.733);
-    text-transform: capitalize;
-    font-size: .9rem;
-} 
-     */
 
 .main-title{
     font-size: 52px;
@@ -557,7 +506,7 @@ text-transform: capitalize;
     row-gap: 15px;
     color: white;
     border-radius: 20px;
-    /* background-color: #151515; */
+
     background: url("../images/curve.webp");
     background-size: cover;
     background-repeat: no-repeat;
@@ -591,14 +540,6 @@ text-transform: capitalize;
     column-gap: 10px;
 }
 
-/* .services-container h3{
-
-    text-align: center;
-    font-size: 2.1rem;
-    color: #00ec76;
-    margin: 10px;
-    
-} */
 .container-services{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -747,11 +688,7 @@ text-transform: capitalize;
     background-color: rgba(255, 255, 255, 0.158);
 }
 
-/* .item-main-body {
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-} */
+
 
 .main-body-text{
     display: flex;
@@ -843,105 +780,6 @@ text-transform: capitalize;
     cursor: pointer;
     transition: .2s ease-in;
 }
-/* .container-labels label:hover{
-    color: #00ec76;
-    background-color: white;
-    
-} */
-
-/* .project-list{
-    list-style: none;
-    padding: 0px;
-    margin: 50px 0px 0px;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 15px;
-    position: relative;
-    
-}
-.project-list .project-item{
-    border: 1px solid rgba(255, 255, 255, 0.068);
-    border-radius: 3px;
-   
-    -webkit-box-shadow: 1px 10px 25px -7px rgba(0,0,0,0.97);
--moz-box-shadow: 1px 10px 25px -7px rgba(0,0,0,0.97);
-box-shadow: 1px 10px 25px -7px rgba(0,0,0,0.97);
-transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1)
-} */
-/* .project-inner{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    position: relative;
-    height: 100%;
-    padding: 4px 5px;
-} */
-/* .project-item:hover{
-    transform: translate(5px, -5px);
-    transition: .3s linear;
-}
-.project-elements{
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 15px;
-    
-}
-.project-elements .folder  img{
-   
-    stroke: #00ec76;
-}
-
-.project-elements .link-project a{
-    display: flex;
-    align-items: center;
-    margin-right: -10px;
-}
-
-.project-elements .link-project a img{
-    width: 22px;
-    height: 22px;
-    margin-top: -4px;
-}
-
-.project-inner .project-title{
-    margin: 0px 0px 10px;
-}
-
-.project-inner .list-tech{
-    list-style: none;
-    display: flex;
-    align-items: flex-start;
-    flex-grow: 1;
-    flex-wrap: wrap;
-    padding: 10px;
-    margin: 5px 0px 0px;
-    column-gap: 5px;
-   
-} */
-
-/* .project-title{
-    color: white;
-
-}
-.project-description{
-    color: rgba(255, 255, 255, 0.596);
-}
-.project-inner  .list-tech li{
-    color: white;
-}
- */
-
-/* .more-projects a:hover{
-    background-color: var(--blackColor);
-    color: var(--white);
-    transition: .2s linear;
-    border: 1px solid var(--white);
-    cursor: pointer;
-}
-  */
-
 
 .contact-services{
     width: 100%;
@@ -1075,7 +913,7 @@ backdrop-filter: blur(4px);
     background-color: #00ec76;
     color: #001a09;
     text-decoration: none;
-    cursor: pointer;
+ 
 }
 
 .container-item-contact{
