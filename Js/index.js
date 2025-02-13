@@ -55,7 +55,7 @@ let tiempo1 = setInterval(() => {
 
     $cont1.textContent = cant1+=1
 
-    if(cant1 === 60)
+    if(cant1 === 10)
 
         {
             clearInterval(tiempo1)

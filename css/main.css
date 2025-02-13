@@ -3,6 +3,9 @@
     --white: #ffffff;
     --blackColor:#0c0c0c;
 }
+html{
+    scroll-behavior: smooth !important;
+}
 
 @keyframes show{
     from{
@@ -22,6 +25,7 @@
 }
 body{
     background-color: #1f1f1f;
+  
 
 }
 
@@ -601,7 +605,7 @@ text-transform: capitalize;
     gap: 20px;
     flex: 1 1 300px; 
     flex-wrap: wrap;
-
+    justify-items: center;
 }
 
 
@@ -946,6 +950,7 @@ transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1)
     background: url("../images/Group.png");
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
     
     
 }
@@ -1051,7 +1056,7 @@ backdrop-filter: blur(4px);
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 15px;
 }
 
 .contact-item-paragraph p{
