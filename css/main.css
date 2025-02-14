@@ -22,7 +22,7 @@ html{
     margin: 0;
     box-sizing: border-box;
     font-family: 'inter', sans-serif;
-    font-weight: normal;
+ 
     font-style: normal;
 }
 body{
@@ -939,6 +939,12 @@ backdrop-filter: blur(4px);
     row-gap: 20px ;
     color: white;
 
+}
+
+.contact-item-info span, .contact-item-info a{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
 }
 .message img{
     width: 40px;
