@@ -26,7 +26,6 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-
 //PROGRESS BAR
 // window.addEventListener("load",()=>{
 

@@ -21,7 +21,9 @@ html{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+    font-family: 'inter', sans-serif;
+    font-weight: normal;
+    font-style: normal;
 }
 body{
     background-color: #1f1f1f;
@@ -118,6 +120,7 @@ nav{
     position: relative;
     color: white;
     text-decoration: none;
+    padding: 3px 5px;
 }
 
 
@@ -785,7 +788,7 @@ padding: 7px 20px;
     width: 100%;
     position: relative;
     padding: 60px 0px;
-    background: url("../images/Group.png");
+    background: url("../images/Group.webp");
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
@@ -982,3 +985,4 @@ backdrop-filter: blur(4px);
     opacity: 1;
   }
   
+ 
