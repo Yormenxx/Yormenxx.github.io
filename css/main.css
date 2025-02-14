@@ -944,6 +944,7 @@ backdrop-filter: blur(4px);
 .contact-item-info span, .contact-item-info a{
     display: flex;
     align-items: center;
+    justify-content: center;
     column-gap: 10px;
 }
 .message img{
